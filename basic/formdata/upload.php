@@ -1,7 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: lcc
- * Date: 16/2/14
- * Time: 下午12:39
- */
+
+//print_r($_FILES);
+$file=$_FILES['file'];
+$fileName=$file['name'];
+move_uploaded_file($file['tmp_name'],$fileName);
+echo "<img src='$fileName'>";
+?>
+
+</body>
+</html>
