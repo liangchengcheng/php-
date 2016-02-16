@@ -5,10 +5,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/add.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/add.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/edit_user_server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/edituser.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/functions.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/sql/mysql/users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/sql/mysql/users.php" afterPath="$PROJECT_DIR$/basic/sql/mysql/users.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,27 +32,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/sql/mysql/add.php">
+      <file leaf-file-name="edituser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/sql/mysql/edituser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39473686">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.47368422">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
-                <element signature="e#6#83#0#PHP" expanded="true" />
-                <marker date="1455545854000" expanded="true" signature="463:497" placeholder="insert into users..." />
-                <marker date="1455545854000" expanded="true" signature="463:510" placeholder="insert into users..." />
-                <marker date="1455545854000" expanded="true" signature="463:612" placeholder="insert into users..." />
+                <marker date="1455594563000" expanded="true" signature="361:380" placeholder="select * fro..users..." />
+                <marker date="1455594563000" expanded="true" signature="671:696" placeholder="..." />
+                <marker date="1455594563000" expanded="true" signature="777:802" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/sql/mysql/add.html">
+      <file leaf-file-name="edit_user_server.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/sql/mysql/edit_user_server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding />
+            <state vertical-scroll-proportion="-18.125">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <marker date="1455594522000" expanded="true" signature="397:445" placeholder="update users..." />
+                <marker date="1455594522000" expanded="true" signature="397:446" placeholder="update users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/sql/mysql/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="30" column="67" selection-start-line="28" selection-start-column="3" selection-end-line="30" selection-end-column="67" />
+              <folding>
+                <element signature="e#6#83#0#PHP" expanded="true" />
+                <marker date="1455545854000" expanded="true" signature="463:497" placeholder="insert into users..." />
+                <marker date="1455545854000" expanded="true" signature="463:510" placeholder="insert into users..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,9 +121,11 @@
         <option value="$PROJECT_DIR$/basic/sql/mysql/index.php" />
         <option value="$PROJECT_DIR$/basic/sql/mysql/config.php" />
         <option value="$PROJECT_DIR$/basic/sql/mysql/functions.php" />
-        <option value="$PROJECT_DIR$/basic/sql/mysql/users.php" />
         <option value="$PROJECT_DIR$/basic/sql/mysql/add.html" />
         <option value="$PROJECT_DIR$/basic/sql/mysql/add.php" />
+        <option value="$PROJECT_DIR$/basic/sql/mysql/users.php" />
+        <option value="$PROJECT_DIR$/basic/sql/mysql/edit_user_server.php" />
+        <option value="$PROJECT_DIR$/basic/sql/mysql/edituser.php" />
       </list>
     </option>
   </component>
@@ -119,8 +139,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="743" />
-    <option name="y" value="68" />
+    <option name="x" value="738" />
+    <option name="y" value="94" />
     <option name="width" value="905" />
     <option name="height" value="691" />
   </component>
@@ -279,7 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="743" y="68" width="905" height="691" extended-state="0" />
+    <frame x="738" y="94" width="905" height="691" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -312,7 +332,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -396,6 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -538,6 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,15 +671,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/sql/mysql/users.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding>
-            <element signature="e#146#223#0#PHP" expanded="true" />
-            <marker date="1455543702000" expanded="true" signature="291:322" placeholder="select * fro..users..." />
-            <marker date="1455543702000" expanded="true" signature="389:422" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.34736842">
+          <caret line="1664" column="9" selection-start-line="1664" selection-start-column="9" selection-end-line="1664" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -669,23 +687,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
+    <entry file="file://$PROJECT_DIR$/basic/sql/mysql/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34736842">
-          <caret line="1664" column="9" selection-start-line="1664" selection-start-column="9" selection-end-line="1664" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="-19.125">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#146#223#0#PHP" expanded="true" />
+            <marker date="1455591516000" expanded="true" signature="291:322" placeholder="select * fro..users..." />
+            <marker date="1455591516000" expanded="true" signature="389:422" placeholder="..." />
+            <marker date="1455591516000" expanded="true" signature="658:771" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/sql/mysql/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39473686">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="30" column="67" selection-start-line="28" selection-start-column="3" selection-end-line="30" selection-end-column="67" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
             <marker date="1455545854000" expanded="true" signature="463:497" placeholder="insert into users..." />
             <marker date="1455545854000" expanded="true" signature="463:510" placeholder="insert into users..." />
-            <marker date="1455545854000" expanded="true" signature="463:612" placeholder="insert into users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/sql/mysql/edit_user_server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <marker date="1455594522000" expanded="true" signature="397:445" placeholder="update users..." />
+            <marker date="1455594522000" expanded="true" signature="397:446" placeholder="update users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/sql/mysql/edituser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47368422">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <marker date="1455594563000" expanded="true" signature="361:380" placeholder="select * fro..users..." />
+            <marker date="1455594563000" expanded="true" signature="671:696" placeholder="..." />
+            <marker date="1455594563000" expanded="true" signature="777:802" placeholder="..." />
           </folding>
         </state>
       </provider>

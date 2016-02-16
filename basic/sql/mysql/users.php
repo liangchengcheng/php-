@@ -33,7 +33,12 @@ for($i=0;$i<$dataCount;$i++){
     $name=$result_arr['name'];
     $age=$result_arr['age'];
 
-    echo "<tr><td>$id</td><td>$name</td><td>$age</td></tr>";
+    echo "<tr>
+    <td>$id</td>
+    <td>$name</td>
+    <td>$age</td>
+    <td><a href='edituser.php?id=$id'修改</a></td>
+    </tr>";
 
 }
 echo "</table>";
