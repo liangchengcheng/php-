@@ -38,6 +38,7 @@ for($i=0;$i<$dataCount;$i++){
     <td>$name</td>
     <td>$age</td>
     <td><a href='edituser.php?id=$id'修改</a></td>
+    <td><a href='delete.php.php?id=$id'删除</a></td>
     </tr>";
 
 }
