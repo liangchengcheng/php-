@@ -8,6 +8,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/pdo/prepare1.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/pdo/prepare3.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/pdo/singleclas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic/pdo/transaction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="htdocs.iws" />
@@ -30,38 +31,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prepare.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/pdo/prepare.php">
+      <file leaf-file-name="transaction.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/pdo/transaction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.42105263">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
-                <element signature="e#6#83#0#PHP" expanded="true" />
-                <marker date="1455977367000" expanded="true" signature="437:482" placeholder="insert into users..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepare1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/pdo/prepare1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-              <folding>
-                <marker date="1455977588000" expanded="true" signature="437:491" placeholder="insert into users..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepare3.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/pdo/prepare3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8684211">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <marker date="1455978197000" expanded="true" signature="437:466" placeholder="select id na..users..." />
+                <element signature="e#6#84#0#PHP" expanded="true" />
+                <marker date="1455978983000" expanded="true" signature="340:366" placeholder="insert into users..." />
+                <marker date="1455978983000" expanded="true" signature="340:372" placeholder="insert into users..." />
               </folding>
             </state>
           </provider>
@@ -128,6 +106,7 @@
         <option value="$PROJECT_DIR$/basic/pdo/prepare.php" />
         <option value="$PROJECT_DIR$/basic/pdo/prepare1.php" />
         <option value="$PROJECT_DIR$/basic/pdo/prepare3.php" />
+        <option value="$PROJECT_DIR$/basic/pdo/transaction.php" />
       </list>
     </option>
   </component>
@@ -357,13 +336,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/sql/mysql/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
@@ -682,27 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/pdo/pdo1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <marker date="1455717873000" expanded="true" signature="243:262" placeholder="select * fro..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/pdo/exec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1455975448000" expanded="true" signature="292:332" placeholder="insert into user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/pdo/prepare.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.75">
@@ -726,10 +677,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/pdo/prepare3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8684211">
+        <state vertical-scroll-proportion="-20.625">
           <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <marker date="1455978197000" expanded="true" signature="437:466" placeholder="select id na..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/pdo/exec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+            <marker date="1455975448000" expanded="true" signature="292:332" placeholder="insert into user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/pdo/pdo1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+            <marker date="1455717873000" expanded="true" signature="243:262" placeholder="select * fro..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/pdo/transaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42105263">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+            <marker date="1455978983000" expanded="true" signature="340:366" placeholder="insert into users..." />
+            <marker date="1455978983000" expanded="true" signature="340:372" placeholder="insert into users..." />
           </folding>
         </state>
       </provider>
