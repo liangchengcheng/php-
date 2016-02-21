@@ -2,6 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <title>学生信息管理</title>
+    <script>
+        function doDel(id){
+            if (confirm("确定要删除么")){
+                window.location='action.php?action=del&id='+id;
+            }
+        }
+    </script>
 </head>
 <body>
     <center><?php
@@ -30,7 +37,12 @@
               echo "<td>{$row['id']}</td>";
               echo "<td>{$row['name']}</td>";
               echo "<td>{$row['pwd']}</td>";
-              echo "<td>操作</td>";
+
+              echo "<td>
+                <a href='javascript:doDel({$row['id']})'>删除</a>
+                <a href='edit.php?id={$row['id']}'>修改</a>
+                </td>";
+
               echo "</tr>";
           }
           ?>
