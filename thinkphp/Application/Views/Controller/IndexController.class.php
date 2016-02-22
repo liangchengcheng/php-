@@ -7,6 +7,7 @@ class IndexController extends Controller
         $username = 'linda';
         $email    = 'linda@jike.com';
         $age      = 18;
+        $birthday_year=2100;
         
         $user     = array(
             'user' => $username,
@@ -15,6 +16,7 @@ class IndexController extends Controller
         );
 
         $this->assign('user',$user);
+        $this->assign('birthday_year',$birthday_year);
 
         // $fetchContent=$this->fetch();
         // $fetchContent=str_replace('jike', 'jikexueyuan', $fetchContent);

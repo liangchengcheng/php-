@@ -30,7 +30,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link</a></li>
+                    <li class="active"><a href="#">主页</a></li>
                     <li><a href="#">Link</a></li>
                 </ul>
                 <form class="navbar-form navbar-left" role="search">
@@ -44,8 +44,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">主题 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo U('index',array('t'=>'default'));?>">默认主题</a></li>
-                            <li><a href="<?php echo U('index',array('t'=>'jike'));?>">极客主题</a></li>
+                            <li><a href="{:U('index',array('t'=>'default'))}">默认主题</a></li>
+                            <li><a href="{:U('index',array('t'=>'jike'))}">极客主题</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -61,15 +61,31 @@
                     <tbody>
                         <tr>
                             <td>用户名</td>
-                            <td><?php echo ($user["user"]); ?></td>
+                            <td><?php echo (strtoupper($user["user"])); ?></td>
                         </tr>
                         <tr>
                             <td>电子邮件</td>
-                            <td><?php echo ($user["mail"]); ?></td>
+                            <td><?php echo (strtoupper(str_replace('jike','jikexueyuan',$user["mail"]))); ?></td>
+                        </tr>
+                        <tr>
+                            <td>电子邮件php</td>
+                            <td><?php echo strtoupper(str_replace('jike','jikexueyuan_php',$user['mail']));?></td>
                         </tr>
                         <tr>
                             <td>年龄</td>
-                            <td><?php echo ($user["age"]); ?></td>
+                            <td><?php echo ($user['age']-1); ?></td>
+                        </tr>
+                        <tr>
+                            <td>计算年龄</td>
+                            <td><?php echo (getAge($birthday_year)); ?></td>
+                        </tr>
+                        <tr>
+                            <td>手机号码</td>
+                            <td><?php echo ((isset($mobile) && ($mobile !== ""))?($mobile):'没有手机号码'); ?></td>
+                        </tr>
+                        <tr>
+                            <td>项目目录</td>
+                            <td><?php echo ($_SERVER['DOCUMENT_ROOT']); ?></td>
                         </tr>
                     </tbody>
                 </table>
@@ -78,5 +94,17 @@
             <script src="//code.jquery.com/jquery.js"></script>
             <!-- Bootstrap JavaScript -->
             <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+            <!-- import -->
+            <script type="text/javascript" src="/htdocs/thinkphp/Public/Js/bootstrap.js"></script>
+
+            <!-- load -->
+            <script type="text/javascript" src="/htdocs/thinkphp/Public/js/jquery.js"></script>
+
+            <!-- css -->
+            <link rel="stylesheet" type="text/css" href="/htdocs/thinkphp/Public/css/bootstrap.css" />
+
+            <!-- js -->
+            <script type="text/javascript" src="./Cdn/js/bootstrap.js"></script>
         </body>
     </html>

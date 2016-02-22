@@ -6,7 +6,12 @@ return array(
     // 'TMPL_TEMPLATE_SUFFIX'	 => '.jike',		//模板后缀
     // 'TMPL_FILE_DEPR' 		=> '_',			//分隔符
     // 'VIEW_PATH' 			=> './Theme/Views/',	//自定义视图目录
-    'DEFAULT_THEME'=>'default',
-    'TMPL_DETECT_THEME'=>true,
-    'THEME_LIST'=>'default,jike'
+    'DEFAULT_THEME'		=>'default',
+    'TMPL_DETECT_THEME'	=>true,
+    'THEME_LIST'			=>'default,jike',
+    'TMPL_L_DELIM'                      =>'{{',
+    'TMPL_R_DELIM'                      =>'}}',
+    'TMPL_PARSE_STRING'           =>array(
+                '__CDN__'=>'./Cdn'
+        )
 );
