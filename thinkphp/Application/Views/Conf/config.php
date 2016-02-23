@@ -12,6 +12,12 @@ return array(
     'TMPL_L_DELIM'                      =>'{{',
     'TMPL_R_DELIM'                      =>'}}',
     'TMPL_PARSE_STRING'           =>array(
-                '__CDN__'=>'./Cdn'
-        )
+                '__CDN__'=>'./Cdn',
+                '__AVATAR__'=>__ROOT__.'/Uploads/avatar'
+        ),
+    'TAGLIB_PRE_LOAD'=>'Views\TagLib\Jike',
+    //'TAGLIB_BUILD_IN'=>'Views\TagLib\Jike',
+    // 'LAYOUT_ON'=>true,
+    // 'LAYOUT_NAME'=>'layout',
+    // 'TMPL_LAYOUT_ITEM'=>'{__CONTENT__}'
 );

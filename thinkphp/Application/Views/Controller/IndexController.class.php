@@ -18,6 +18,11 @@ class IndexController extends Controller
         $this->assign('user',$user);
         $this->assign('birthday_year',$birthday_year);
 
+        //好友数据变量赋值
+        $this->assign('friends',get_user_friends());
+
+       // layout('layout');
+
         // $fetchContent=$this->fetch();
         // $fetchContent=str_replace('jike', 'jikexueyuan', $fetchContent);
 
@@ -27,6 +32,14 @@ class IndexController extends Controller
         // $this->assign('mail', $email);
         // $this->assign('age', $age);
         
+        $this->display();
+    }
+
+    public function friends()
+    {
+       //好友数据变量赋值
+        $this->assign('friends',get_user_friends());
+       // layout('layout');
         $this->display();
     }
 }

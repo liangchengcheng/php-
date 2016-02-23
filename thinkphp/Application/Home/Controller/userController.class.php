@@ -1,37 +1,47 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class userController extends Controller {
-
-    public function index(){
-
-        //各种跳转方式
-
-        $this->redirect('edit','',2,'纯跳转');
-
-        $this->success('成功跳转',U(user/login),2);
-
-        $this->error('出错了','正在跳转',U(user/login),3);
-
-        //ajax json的方式
-        $this->ajaxReturn(getTestData(),'json');
-
-        //获取提交的参数
-        $server=I('server.HTTP_HOST');
+class UserController extends Controller
+{
+    
+    /**
+     * index操作方法
+     */
+    public function index() {
+        
+        //重定向
+        //$this->redirect('edit','',2,'纯跳转');
+        //成功提示跳转
+        //$this->success('成功跳转',U('User/login'),3);
+        //错误提示跳转
+        //$this->error('出错了，正在跳转',U('User/login'),5);
+        //Ajax数据返回
+        //$this->ajaxReturn(getTestData(),'xml');
+        
+        $server = I('server.HTTP_HOST');
         dump($server);
     }
-
-    public function edit(){
-        echo "edit<br>";
+    
+    /**
+     * edit操作方法
+     */
+    public function edit() {
+        echo "user.edit";
     }
-
-    public function login(){
-        echo "login<br>";
-        $user=I('get.user',null);
-        if($user=='lcc'){
-            $this->success('成功跳转',U(user/edit),2);
-        }else{
-            $this->error('出错了','正在跳转',U(user/edit),3);
+    
+    /**
+     * login操作方法
+     */
+    public function login() {
+        
+        //获取user get变量
+        $user = I('get.user', null);
+        
+        if ($user === 'jike') {
+            $this->success('您好极客', U('User/index') , 3);
+        } 
+        else {
+            $this->error('您不是极客', U('User/index') , 3);
         }
     }
 }
