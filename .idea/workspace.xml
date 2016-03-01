@@ -2,119 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Uploads/avatar/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Uploads/avatar/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Uploads/avatar/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Uploads/avatar/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Uploads/avatar/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/EmptyController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/View/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Home/33a122fef9f338df92357ca0405f89e8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Home/b39761fdd01eadcd4b8a82f371520558.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Topic/b39761fdd01eadcd4b8a82f371520558.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Topic/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/User/b39761fdd01eadcd4b8a82f371520558.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/User/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/View/b39761fdd01eadcd4b8a82f371520558.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/6582f077fd95d9cdc6d37c99384e2834.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/6acc7569179793e3cfb72ee8e2c86327.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/733dad242d22eee0234d2fc4187fbf05.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/8aca661f5be7ddd2c9f95686c44c5cff.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/8dfb21329b3269dd6cf43a5054200e1d.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/b39761fdd01eadcd4b8a82f371520558.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/c199a540c87aca84c92e14014b16fc0d.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/da42189a8975f36d81ad2f17cf5ba7ca.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/ff948658fdf82bf455cc725e548a4063.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Common/15_03_30.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Common/15_03_31.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Common/15_04_12.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_03_16.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_03_22.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_03_23.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_03_24.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_03_30.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_03_31.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/15_04_12.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Topic/15_03_22.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Topic/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/User/15_03_22.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/User/15_03_31.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/User/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/View/15_04_12.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Views/15_04_12.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Views/15_04_19.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Views/15_04_20.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Views/15_04_27.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/Common/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/Conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/Conf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/Controller/IndexController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/Controller/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/Model/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/View/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/User/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/TagLib/Jike.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Base/common.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Index/friends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/Css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/Js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/Js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkphp/Public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Common/Common/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Common/Common/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Common/Conf/config.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Common/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Common/Conf/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Common/Conf/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Common/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Common/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Common/function.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Common/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Common/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Common/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/config.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/config.yaml" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/upload.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/user.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Conf/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index/index.class.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index/index.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/Model/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/Model/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Home/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Home/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/0a4fbe29f63d55dfe1c97fd2bc3a1df1.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/Views/0a4fbe29f63d55dfe1c97fd2bc3a1df1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Cache/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Data/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Data/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/Home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Logs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/Temp/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/Temp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Runtime/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Runtime/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Views/Common/function.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/Common/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Views/Conf/config.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Index/index.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Public/js.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Public/js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Public/navbar.html" afterPath="$PROJECT_DIR$/thinkphp/Application/Views/View/default/Public/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/App.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/App.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Build.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Build.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Controller/RestController.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Controller/RestController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Crypt/Driver/Crypt.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Crypt/Driver/Crypt.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db/Driver/Pgsql.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Db/Driver/Pgsql.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Dispatcher.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Dispatcher.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Image/Driver/Imagick.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Image/Driver/Imagick.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Log.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Log.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Log/Driver/File.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Log/Driver/File.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Log/Driver/Sae.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Log/Driver/Sae.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Model.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Model.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Model/MongoModel.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Model/MongoModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Session/Driver/Db.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Session/Driver/Db.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Upload/Driver/Ftp.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Upload/Driver/Ftp.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Upload/Driver/Qiniu.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Upload/Driver/Qiniu.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" afterPath="$PROJECT_DIR$/thinkphp/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/pic1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/pic2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/images/pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/basic_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/clndr.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/jqvmap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/lines.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/Chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/clndr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/d3.v3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/jquery.vmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/jquery.vmap.sampledata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/jquery.vmap.world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/moment-2.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/rickshaw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/js/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,78 +74,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/Application/Common/Conf/config.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.76229507">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="2" selection-end-line="42" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thinkphp/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44262296">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Common/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Conf/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.75">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Jike.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/TagLib/Jike.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.875">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/View/default/layout.html">
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -231,9 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/classtest/SuperMAN.php" />
-        <option value="$PROJECT_DIR$/basic/tools/date.php" />
-        <option value="$PROJECT_DIR$/basic/tools/json.php" />
         <option value="$PROJECT_DIR$/basic/tools/files.php" />
         <option value="$PROJECT_DIR$/basic/tools/image.php" />
         <option value="$PROJECT_DIR$/basic/tools/watermark.php" />
@@ -282,6 +157,9 @@
         <option value="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index/index.html" />
         <option value="$PROJECT_DIR$/thinkphp/index.php" />
         <option value="$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/cc_pj/basic_table.html" />
+        <option value="$PROJECT_DIR$/cc_pj/login.html" />
+        <option value="$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -295,7 +173,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
+    <option name="x" value="680" />
     <option name="y" value="23" />
     <option name="width" value="1231" />
     <option name="height" value="731" />
@@ -325,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,7 +231,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_laravele" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,37 +249,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="my_laravele" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,23 +271,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="my_laravele" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,204 +297,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="my_laravele" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TagLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -651,18 +331,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cc_pj" />
+      <recent name="$PROJECT_DIR$/thinkphp" />
+      <recent name="$PROJECT_DIR$/thinkphp/Application" />
+      <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View" />
+      <recent name="$PROJECT_DIR$/thinkphp/Application/Home/Controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index" />
       <recent name="$PROJECT_DIR$/basic/classtest/jkxy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/thinkphp" />
-      <recent name="$PROJECT_DIR$/thinkphp/Application" />
-      <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View" />
-      <recent name="$PROJECT_DIR$/thinkphp/Application/Home/Controller" />
-      <recent name="$PROJECT_DIR$/thinkphp/Application/Home/Conf" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.add.php">
@@ -720,12 +400,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="23" width="1231" height="731" extended-state="0" />
+    <frame x="680" y="23" width="1231" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22258326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -734,6 +413,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -742,26 +422,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -779,6 +439,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/TagLib/Jike.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/View/default/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic/formdata/upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42105263">
@@ -993,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,30 +730,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/TagLib/Jike.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44262296">
+        <state vertical-scroll-proportion="-11.25">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc_pj/basic_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="270" column="46" selection-start-line="270" selection-start-column="46" selection-end-line="270" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc_pj/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc_pj/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76229507">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="2" selection-end-line="42" selection-end-column="5" />
           <folding />
         </state>
       </provider>
