@@ -53,11 +53,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/login.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc_pj/register.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/MyController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/my_laravele/resources/views/home.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/my_laravele/resources/views/user.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/my_laravele/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/laravel/my_laravele/resources/views/welcome.blade.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,21 +79,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/my_laravele/resources/views/welcome.blade.php">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/my_laravele/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.541666">
-              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.75409836">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39344263">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state vertical-scroll-proportion="-21.041666">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -114,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/formdata/myform.html" />
         <option value="$PROJECT_DIR$/basic/formdata/hello.html" />
         <option value="$PROJECT_DIR$/basic/formdata/hello.php" />
         <option value="$PROJECT_DIR$/basic/formdata/add.html" />
@@ -162,9 +161,10 @@
         <option value="$PROJECT_DIR$/cc_pj/basic_table.html" />
         <option value="$PROJECT_DIR$/cc_pj/login.html" />
         <option value="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/MyController.php" />
-        <option value="$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/laravel/my_laravele/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/my_laravele/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -178,8 +178,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="774" />
-    <option name="y" value="115" />
+    <option name="x" value="753" />
+    <option name="y" value="52" />
     <option name="width" value="1231" />
     <option name="height" value="731" />
   </component>
@@ -385,17 +385,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/views" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index" />
       <recent name="$PROJECT_DIR$/basic/classtest/jkxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/my_laravele/resources" />
       <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/views" />
       <recent name="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/cc_pj" />
       <recent name="$PROJECT_DIR$/thinkphp" />
-      <recent name="$PROJECT_DIR$/thinkphp/Application" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.add.php">
@@ -453,7 +454,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="774" y="115" width="1231" height="731" extended-state="0" />
+    <frame x="753" y="52" width="1231" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22258326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -512,13 +513,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/cookieandsession/cookie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/cookieandsession/getsession.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18421052">
@@ -733,6 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -740,6 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -819,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.291666">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/my_laravele/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -877,8 +865,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39344263">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.041666">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75409836">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding />
         </state>
       </provider>

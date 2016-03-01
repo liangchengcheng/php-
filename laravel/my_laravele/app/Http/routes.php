@@ -45,3 +45,8 @@ Route::any('test',function(){
 //指定到固定的MyController
 Route::get('about','MyController@getAbout');
 Route::resource('user','UserController');
+//这里懒一点
+Route::get('home',function(){
+    $name='111111';
+    return view('home');
+});
