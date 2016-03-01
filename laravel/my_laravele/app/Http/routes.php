@@ -41,3 +41,7 @@ Route::any('test',function(){
 //Route::post('test',function(){
 //    return 'post请求';
 //});
+
+//指定到固定的MyController
+Route::get('about','MyController@getAbout');
+Route::resource('user','UserController');
