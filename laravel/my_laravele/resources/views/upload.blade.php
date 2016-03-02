@@ -38,7 +38,7 @@
 <body>
 <form method="post" action="test" enctype="multipart/form-data">
     <div class="container" >
-        <input type="file" name="profile">
+        <input type="file" name="profile" multiple>
     </div>
     <button type="submit">提交</button>
 </form>

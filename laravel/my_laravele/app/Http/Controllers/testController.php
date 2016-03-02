@@ -24,7 +24,10 @@ class testController extends BaseController
 
         //整个url
         //$name=Request::fullurl();
+        //获取名字
+        $name=Request::file('profile')->getClientOriginalName();
         $name=Request::file('profile');
+
 
 
         return view("test")->with('name', $name);
