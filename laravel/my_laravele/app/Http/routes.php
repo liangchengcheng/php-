@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user');
 });
 
 /*
@@ -30,13 +30,13 @@ Route::group(['middleware' => ['web']], function () {
     //
 });
 
-Route::get('test',function(){
-    return 'get请求';
-});
+//Route::get('test',function(){
+//    return 'get请求';
+//});
 
-Route::any('test',function(){
-    return 'get post 请求';
-});
+//Route::any('test',function(){
+//    return 'get post 请求';
+//});
 
 //Route::post('test',function(){
 //    return 'post请求';
@@ -44,9 +44,15 @@ Route::any('test',function(){
 
 //指定到固定的MyController
 Route::get('about','MyController@getAbout');
+
 Route::resource('user','UserController');
+
 //这里懒一点
 Route::get('home',function(){
     $name='111111';
-    return view('home');
+    return view('home')->with('name');
+});
+
+Route::get('{number}',function($number){
+    return view('num'.$number);
 });
