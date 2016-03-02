@@ -53,6 +53,10 @@ Route::get('home',function(){
     return view('home')->with('name');
 });
 
-Route::get('{number}',function($number){
-    return view('num'.$number);
-});
+//Route::get('{number}',function($number){
+//    return view('num'.$number);
+//});
+
+Route::get('test','testController@index');
+Route::get('upload','uploadController@index');
+
