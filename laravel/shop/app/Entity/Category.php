@@ -1,18 +1,13 @@
 <?php
 
-namespace App\Entity;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    /**
-     * 这个就是数据库的表名
-     */
-    protected $table='category';
+    protected $table = 'category';
+    protected $primaryKey = 'id';
 
-    /**
-     * id
-     */
-    protected $primaryKey="id";
+    //public $timestamps = false;
 }

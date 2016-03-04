@@ -6,13 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class PdtContent extends Model
 {
-    /**
-     * 这个就是数据库的表名
-     */
-    protected $table='pdt_content';
+    protected $table = 'pdt_content';
+    protected $primaryKey = 'id';
 
-    /**
-     * id
-     */
-    protected $primaryKey="id";
+    //public $timestamps = false;
 }

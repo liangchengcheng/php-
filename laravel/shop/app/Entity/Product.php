@@ -6,13 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    /**
-     * 这个就是数据库的表名
-     */
-    protected $table='product';
+    protected $table = 'product';
+    protected $primaryKey = 'id';
 
-    /**
-     * id
-     */
-    protected $primaryKey="id";
+    //public $timestamps = false;
 }

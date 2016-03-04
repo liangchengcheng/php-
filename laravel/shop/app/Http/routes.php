@@ -27,5 +27,16 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
 });
+
+Route::get('login','loginController@index');
+
+Route::get('register','registerController@index');
+
+Route::any('service/validate_code/create', 'Service\ValidateController@create');
+
+Route::any('service/validate_phone/send', 'Service\ValidateController@sendSMS');
+
+Route::any('service/validate_email', 'Service\ValidateController@validateEmail');
+
+Route::post('service/register', 'Service\MemberController@register');

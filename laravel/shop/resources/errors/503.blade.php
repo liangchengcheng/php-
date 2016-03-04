@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Be right back.</title>
+
+        
+
         <style>
             html, body {
                 height: 100%;
@@ -11,6 +14,7 @@
                 margin: 0;
                 padding: 0;
                 width: 100%;
+                color: #B0BEC5;
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
@@ -28,14 +32,15 @@
             }
 
             .title {
-                font-size: 96px;
+                font-size: 72px;
+                margin-bottom: 40px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Be right back.</div>
             </div>
         </div>
     </body>
