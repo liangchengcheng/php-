@@ -2,11 +2,154 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/PdtContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/PdtImages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/font/Elephant.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_actionSheet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_article.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_cell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_msg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_search_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_toast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/vcode.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/actionSheet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/cell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/dialog1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/dialog2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/qrcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/result.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/toast1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/toast2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_actionSheet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_article.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_cell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_msg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_search_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_toast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/vcode.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/cell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/dialog1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/dialog2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/qrcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/result.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/toast1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/toast2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/css/book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/css/weui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/zepto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/style/weui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/dist/style/weui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/example.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/actionsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/cell.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/msg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/progress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/searchbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/tab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/tabbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/toast.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/zepto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/fn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/mixin/mobile.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/mixin/setArrow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/mixin/setChecked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/mixin/setOnepx.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/mixin/text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/global.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/monokai.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/weui_button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/weui_cell.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/weui_grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/weui_msg.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/weui_progress.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/icon/weui_font.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/icon/weui_icon_font.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/weui.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_btn_default.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_btn_disabled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_btn_global.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_btn_plain.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_btn_primary.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_btn_warn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_button/weui_button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_access.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_cell_global.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_check.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_check/weui_check_common.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_check/weui_checkbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_check/weui_radio.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_form/weui_form_common.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_form/weui_select.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_form/weui_select_after.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_form/weui_select_before.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_form/weui_vcode.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_switch.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_uploader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_grid/weui_grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_media_box/weui_media_box.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_page/weui_article.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_page/weui_msg.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_panel/weui_panel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_progress/weui_progress.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_searchbar/weui_searchbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tab/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tab/tabbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tab/weui_tab.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tips/weui_actionsheet.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tips/weui_dialog.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tips/weui_mask.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tips/weui_toast.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/component/dialog.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/component/loading.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/master.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/public/favicon.ico" afterPath="$PROJECT_DIR$/laravel/shop/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/public/.htaccess" afterPath="$PROJECT_DIR$/laravel/shop/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/public/index.php" afterPath="$PROJECT_DIR$/laravel/shop/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/public/robots.txt" afterPath="$PROJECT_DIR$/laravel/shop/public/robots.txt" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,61 +171,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/app/User2.php">
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Member.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdtContent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/PdtContent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdtImages.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/PdtImages.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04918033">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.29508197">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -103,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/pdo/singleclas.php" />
-        <option value="$PROJECT_DIR$/basic/pdo/pdo1.php" />
         <option value="$PROJECT_DIR$/basic/pdo/exec.php" />
         <option value="$PROJECT_DIR$/basic/pdo/prepare.php" />
         <option value="$PROJECT_DIR$/basic/pdo/prepare1.php" />
@@ -154,6 +245,8 @@
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/Member.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/PdtContent.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/PdtImages.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" />
       </list>
     </option>
   </component>
@@ -167,8 +260,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="141" />
-    <option name="y" value="342" />
+    <option name="x" value="549" />
+    <option name="y" value="143" />
     <option name="width" value="1231" />
     <option name="height" value="731" />
   </component>
@@ -253,7 +346,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,11 +372,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Events" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,11 +402,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,18 +433,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/shop/resources/views/component" />
+      <recent name="$PROJECT_DIR$/laravel/shop" />
+      <recent name="$PROJECT_DIR$/laravel/shop/public/css" />
+      <recent name="$PROJECT_DIR$/laravel/shop/public" />
       <recent name="$PROJECT_DIR$/laravel/shop/app" />
-      <recent name="$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/views" />
-      <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/conponents" />
-      <recent name="$PROJECT_DIR$/laravel/my_laravele/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/shop/resources/views" />
       <recent name="$PROJECT_DIR$/laravel/shop/app/Entity" />
       <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/views" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index" />
-      <recent name="$PROJECT_DIR$/thinkphp/Application/Home/Controller/index" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.add.php">
@@ -405,10 +502,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="141" y="342" width="1231" height="731" extended-state="0" />
+    <frame x="549" y="143" width="1231" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22258326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22258326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -427,6 +524,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22258326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -444,76 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/student/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/student/action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6052632">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/View/default/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Common/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/Application/Views/TagLib/Jike.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -767,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Member.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
@@ -801,8 +840,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04918033">
+        <state vertical-scroll-proportion="-1.25">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29508197">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/js/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/css/book.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/css/weui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/weui/dist/style/weui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/weui/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-52.5">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/component/dialog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/component/loading.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29508197">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
