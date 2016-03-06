@@ -138,6 +138,7 @@
 
     $(this).removeClass('bk_important');
     $(this).addClass('bk_summary');
+
     enable = false;
     var num = 60;
     var interval = window.setInterval(function() {

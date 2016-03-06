@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Laravel</title>
+
+        
+
         <style>
             html, body {
                 height: 100%;

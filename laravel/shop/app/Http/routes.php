@@ -2,41 +2,38 @@
 
 /*
 |--------------------------------------------------------------------------
-| Routes File
+| Application Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you will register all of the routes in an application.
+| Here is where you can register all of the routes for an application.
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |
 */
+use App\Entity\Member;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| This route group applies the "web" middleware group to every route
-| it contains. The "web" middleware group is defined in your HTTP
-| kernel and includes session state, CSRF protection, and more.
-|
-*/
+//重定向的示例代码 
+//Route::get('/testNamedRoute', function () {
+//     
+//    return redirect()->route('academy');
+//     
+//});
+// 
+////as 是给路由重新起名字的 
+//Route::get('/hello/laravelacademy/{id}', ['as' => 'academy', function ($id) {
+//     
+//    return 'Hello LaravelAcademy ' . $id . '！';
+//     
+//}]);
+Route::get('/login', 'View\MemberController@toLogin');
 
-Route::group(['middleware' => ['web']], function () {
-});
-
-Route::get('login','loginController@index');
-
-Route::get('register','registerController@index');
+Route::get('/register', 'View\MemberController@toRegister');
 
 Route::any('service/validate_code/create', 'Service\ValidateController@create');
-
 Route::any('service/validate_phone/send', 'Service\ValidateController@sendSMS');
-
 Route::any('service/validate_email', 'Service\ValidateController@validateEmail');
-
 Route::post('service/register', 'Service\MemberController@register');

@@ -16,7 +16,7 @@ class ValidateController extends Controller
   public function create(Request $request)
   {
     $validateCode = new ValidateCode;
-    $request->session()->put('validate_code', $validateCode->getCode());
+    //$request->session()->put('validate_code', $validateCode->getCode());
     return $validateCode->doimg();
   }
 
@@ -30,6 +30,7 @@ class ValidateController extends Controller
       $m3_result->message = '手机号不能为空';
       return $m3_result->toJson();
     }
+
     if(strlen($phone) != 11 || $phone[0] != '1') {
       $m3_result->status = 2;
       $m3_result->message = '手机格式不正确';
