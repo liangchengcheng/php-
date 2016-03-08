@@ -2,121 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/loginController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/registerController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/app/User2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/web.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_panel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_search_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/images/icon_nav_tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/dist/example/snapshot/grid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/actionsheet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/article.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/cell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/msg.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/panel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/progress.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/searchbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/tabbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/fragment/toast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_panel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_search_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/images/icon_nav_tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/example/snapshot/grid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/base/variable/weui_grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_cell/weui_uploader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_grid/weui_grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_media_box/weui_media_box.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_panel/weui_panel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_searchbar/weui_searchbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tab/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tab/tabbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/public/weui/src/style/widget/weui_tab/weui_tab.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/resources/component/dialog.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/resources/component/loading.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/resources/errors/503.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/resources/vendor/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laravel/shop/storage/app/public/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Listeners/.gitkeep" afterPath="$PROJECT_DIR$/laravel/shop/app/Listeners/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Policies/.gitkeep" afterPath="$PROJECT_DIR$/laravel/shop/app/Policies/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/laravel/shop/database/migrations/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/laravel/shop/database/seeds/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/vendor/.gitkeep" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/vendor/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Console/Commands/Inspire.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Console/Commands/Inspire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Events/Event.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Events/Event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Exceptions/Handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/ValidateController.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/ValidateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/Authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/EncryptCookies.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/EncryptCookies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Requests/Request.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Requests/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Jobs/Job.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Jobs/Job.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Models/M3Result.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Models/M3Result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Providers/AppServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Providers/AuthServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Providers/EventServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Providers/RouteServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/User.php" afterPath="$PROJECT_DIR$/laravel/shop/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/bootstrap/app.php" afterPath="$PROJECT_DIR$/laravel/shop/bootstrap/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/laravel/shop/bootstrap/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/bootstrap/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/composer.json" afterPath="$PROJECT_DIR$/laravel/shop/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/composer.lock" afterPath="$PROJECT_DIR$/laravel/shop/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/app.php" afterPath="$PROJECT_DIR$/laravel/shop/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/auth.php" afterPath="$PROJECT_DIR$/laravel/shop/config/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/broadcasting.php" afterPath="$PROJECT_DIR$/laravel/shop/config/broadcasting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/cache.php" afterPath="$PROJECT_DIR$/laravel/shop/config/cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/compile.php" afterPath="$PROJECT_DIR$/laravel/shop/config/compile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/database.php" afterPath="$PROJECT_DIR$/laravel/shop/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/filesystems.php" afterPath="$PROJECT_DIR$/laravel/shop/config/filesystems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/mail.php" afterPath="$PROJECT_DIR$/laravel/shop/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/queue.php" afterPath="$PROJECT_DIR$/laravel/shop/config/queue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/services.php" afterPath="$PROJECT_DIR$/laravel/shop/config/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/session.php" afterPath="$PROJECT_DIR$/laravel/shop/config/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/config/view.php" afterPath="$PROJECT_DIR$/laravel/shop/config/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/database/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/laravel/shop/database/factories/ModelFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/laravel/shop/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/laravel/shop/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/laravel/shop/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/gulpfile.js" afterPath="$PROJECT_DIR$/laravel/shop/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/package.json" afterPath="$PROJECT_DIR$/laravel/shop/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/phpunit.xml" afterPath="$PROJECT_DIR$/laravel/shop/phpunit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/readme.md" afterPath="$PROJECT_DIR$/laravel/shop/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/laravel/shop/resources/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/lang/en/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/lang/en/pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/lang/en/passwords.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/lang/en/validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/errors/503.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/errors/503.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/welcome.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/server.php" afterPath="$PROJECT_DIR$/laravel/shop/server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/storage/app/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/storage/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/storage/framework/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/storage/framework/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/storage/framework/sessions/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/storage/framework/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/laravel/shop/storage/logs/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/laravel/shop/tests/ExampleTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/tests/TestCase.php" afterPath="$PROJECT_DIR$/laravel/shop/tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,8 +27,8 @@
       <file leaf-file-name="MemberController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.040983606">
-              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.6803279">
+              <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -161,7 +47,7 @@
       <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="61.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
               <folding />
             </state>
@@ -171,7 +57,7 @@
       <file leaf-file-name="ValidateCode.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/shop/app/Tool/Validate/ValidateCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
@@ -193,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/student/edit.php" />
         <option value="$PROJECT_DIR$/basic/student/action.php" />
         <option value="$PROJECT_DIR$/thinkphp/Application/Home/Conf/user.php" />
         <option value="$PROJECT_DIR$/thinkphp/Application/Home/Conf/upload.php" />
@@ -244,6 +129,7 @@
         <option value="$PROJECT_DIR$/laravel/shop/app/Models/M3Result.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/ValidateController.php" />
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php" />
       </list>
     </option>
   </component>
@@ -257,8 +143,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="761" />
-    <option name="y" value="69" />
+    <option name="x" value="559" />
+    <option name="y" value="58" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
   </component>
@@ -287,6 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -659,8 +547,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -741,10 +627,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="69" width="1280" height="731" extended-state="0" />
-    <editor active="true" />
+    <frame x="559" y="58" width="1280" height="731" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -763,26 +649,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.496875" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -817,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="70" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="70" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,7 +691,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
-            <element signature="e#48#83#0#PHP" expanded="true" />
+            <element signature="e#48#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -979,21 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="18.125">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1449813145000" expanded="true" signature="3113:3256" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="4732:4881" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="5064:5213" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="6780:6905" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="8814:9026" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="11727:12561" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="14833:15499" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="17450:17870" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="19435:19596" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="21070:21241" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="24052:24186" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="25856:26023" placeholder="..." />
-            <marker date="1449813145000" expanded="true" signature="27650:27800" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,9 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.875">
           <caret line="35" column="70" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="70" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.385246">
           <caret line="219" column="9" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +1009,7 @@
         <state vertical-scroll-proportion="-1.7647059">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#48#83#0#PHP" expanded="true" />
+            <element signature="e#48#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1174,13 +1018,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.4583335">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="61.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
           <folding />
         </state>
@@ -1188,7 +1031,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Tool/Validate/ValidateCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
@@ -1204,8 +1047,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040983606">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.6803279">
+          <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
           <folding />
         </state>
       </provider>
