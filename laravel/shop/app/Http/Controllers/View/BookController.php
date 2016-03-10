@@ -30,15 +30,27 @@ class BookController extends Controller
 
   //进入产品的内容介绍界面
   public function toPdtContent(Request $request,$product_id){
+
     $product=Product::find($product_id);
+
+    //获取单个数据first();
     $pdt_content=PdtContent::where('product_id',$product_id)->first();
+
+    //get()获取product_id的所有的数据
     $pdt_images=PdtImages::where('product_id',$product_id)-get();
+
+    //如果是获取指定列的数据，则需要加上select条件：
+    //$users = DB::table('users')->select('name','email')->get();
+
+    //获取单列的值 比如name列的
+    //$users = DB::table('users')->lists('name');
+
 
     $count=0;
     //判断session是否存在
     $member=$request->session()->get('member','');
     if($member!=''){
-      
+
     }
   }
 
