@@ -91,30 +91,42 @@
 
 @section('my-js')
 <script type="text/javascript">
+
   $('#x12').next().hide();
+
+  //查找 register_type的radiao
   $('input:radio[name=register_type]').click(function(event) {
+
     $('input:radio[name=register_type]').attr('checked', false);
     $(this).attr('checked', true);
+
+    //判断他是手机注册还是邮箱注册
     if($(this).attr('id') == 'x11') {
       $('#x11').next().show();
       $('#x12').next().hide();
+
       $('.weui_cells_form').eq(0).show();
       $('.weui_cells_form').eq(1).hide();
+
     } else if($(this).attr('id') == 'x12') {
+
       $('#x12').next().show();
       $('#x11').next().hide();
+
       $('.weui_cells_form').eq(1).show();
       $('.weui_cells_form').eq(0).hide();
     }
   });
 
   $('.bk_validate_code').click(function () {
-    $(this).attr('src', '/service/validate_code/create?random=' + Math.random());
+    $(this).attr('src', 'service/validate_code/create?random=' + Math.random());
   });
 
 </script>
 <script type="text/javascript">
   var enable = true;
+
+  //发送短信验证码
   $('.bk_phone_code_send').click(function(event) {
     if(enable == false) {
       return;
@@ -123,6 +135,7 @@
     var phone = $('input[name=phone]').val();
     // 手机号不为空
     if(phone == '') {
+      //提示用户的手机号不能为空
       $('.bk_toptips').show();
       $('.bk_toptips span').html('请输入手机号');
       setTimeout(function() {$('.bk_toptips').hide();}, 2000);
@@ -135,12 +148,14 @@
       setTimeout(function() {$('.bk_toptips').hide();}, 2000);
       return;
     }
-
+    //改变发送按钮的css
     $(this).removeClass('bk_important');
     $(this).addClass('bk_summary');
 
     enable = false;
     var num = 60;
+
+    //短信60秒后开始重新发送
     var interval = window.setInterval(function() {
       $('.bk_phone_code_send').html(--num + 's 重新发送');
       if(num == 0) {
@@ -153,10 +168,11 @@
     }, 1000);
 
     $.ajax({
-      url: '/service/validate_phone/send',
+      url: 'service/validate_phone/send',
       dataType: 'json',
+      type:'POST',
       cache: false,
-      data: {phone: phone},
+      data: {phone: phone,_token:"{{csrf_token()}}"},
       success: function(data) {
         if(data == null) {
           $('.bk_toptips').show();
@@ -185,6 +201,7 @@
 </script>
 <script type="text/javascript">
 
+  //注册的按钮的点击事件
   function onRegisterClick() {
 
     $('input:radio[name=register_type]').each(function(index, el) {
@@ -197,6 +214,8 @@
         var validate_code = '';
 
         var id = $(this).attr('id');
+
+        //判断是短信注册还的邮箱注册
         if(id == 'x11') {
           phone = $('input[name=phone]').val();
           password = $('input[name=passwd_phone]').val();

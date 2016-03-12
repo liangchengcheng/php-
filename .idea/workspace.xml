@@ -12,6 +12,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/TempPhone.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/TempPhone.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/BookController.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/BookController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +34,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53367877">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state vertical-scroll-proportion="-3.1176472">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.746114">
+              <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.75">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -96,7 +117,6 @@
         <option value="$PROJECT_DIR$/laravel/shop/app/Tool/Validate/ValidateCode.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Models/M3Result.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/ValidateController.php" />
-        <option value="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/MemberController.php" />
@@ -109,6 +129,7 @@
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/TempPhone.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/BookController.php" />
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" />
       </list>
     </option>
   </component>
@@ -122,8 +143,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="44" />
+    <option name="x" value="198" />
+    <option name="y" value="26" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
   </component>
@@ -255,32 +276,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,7 +459,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="44" width="1280" height="727" extended-state="0" />
+    <frame x="198" y="26" width="1280" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -743,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="190" column="19" selection-start-line="187" selection-start-column="1" selection-end-line="250" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Models/M3Result.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
@@ -880,16 +868,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4818653">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="21" />
+        <state vertical-scroll-proportion="-12.75">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53367877">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state vertical-scroll-proportion="-3.1176472">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.746114">
+          <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
           <folding />
         </state>
       </provider>

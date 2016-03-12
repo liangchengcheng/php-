@@ -25,7 +25,7 @@
                 <input class="weui_input" type="number" placeholder="请输入验证码"/>
             </div>
             <div class="weui_cell_ft">
-                <img src="/validate_code/create" class="bk_validate_code"/>
+                <img src="service/validate_code/create" class="bk_validate_code"/>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
     <div class="weui_btn_area">
         <a class="weui_btn weui_btn_primary" href="javascript:" onclick="onLoginClick();">登录</a>
     </div>
-    <a href="/register" class="bk_bottom_tips bk_important">没有帐号? 去注册</a>
+    <a href="service/register" class="bk_bottom_tips bk_important">没有帐号? 去注册</a>
 @endsection
 
 @section('my-js')
