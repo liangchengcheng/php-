@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Entity;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class PdtImages extends Model
+class CartItem extends Model
 {
-    //产品图
-    protected $table = 'pdt_images';
+    protected $table = 'cart_item';
     protected $primaryKey = 'id';
 
     //public $timestamps = false;
