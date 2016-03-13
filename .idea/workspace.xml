@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/CartItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/BookController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Models/BKWXJsConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Models/BKWXPayConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/pdt_content.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/product.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/CartController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/Category.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/Member.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/Member.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/PdtContent.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/PdtContent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/PdtImages.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/PdtImages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/TempEmail.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/TempEmail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Entity/TempPhone.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Entity/TempPhone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/BookController.php" afterPath="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/BookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/master.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/register.blade.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,15 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pdt_content.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pdt_content.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/pdt_content.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.056995">
+            <state vertical-scroll-proportion="-24.0">
               <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding>
-                <element signature="e#159#174#0#HTML" expanded="true" />
-                <element signature="e#957#977#0#HTML" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/CartController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15841584">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinkphp/index.php" />
         <option value="$PROJECT_DIR$/thinkphp/Application/Views/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/cc_pj/basic_table.html" />
         <option value="$PROJECT_DIR$/cc_pj/login.html" />
@@ -119,6 +110,7 @@
         <option value="$PROJECT_DIR$/laravel/shop/app/Models/BKWXPayConfig.php" />
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/product.blade.php" />
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/pdt_content.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/CartController.php" />
       </list>
     </option>
   </component>
@@ -132,7 +124,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="358" />
+    <option name="x" value="624" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -162,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,7 +462,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,19 +472,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/laravel/shop/resources/views" />
-      <recent name="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service" />
-      <recent name="$PROJECT_DIR$/laravel/shop/app/Entity" />
-      <recent name="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View" />
-      <recent name="$PROJECT_DIR$/laravel/shop/app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/laravel/shop/resources/views" />
       <recent name="$PROJECT_DIR$/laravel/shop/app/Entity" />
       <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/views" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View" />
+      <recent name="$PROJECT_DIR$/laravel/shop/resources/views" />
+      <recent name="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service" />
+      <recent name="$PROJECT_DIR$/laravel/shop/app/Entity" />
+      <recent name="$PROJECT_DIR$/laravel/shop/app" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.ValidateCode.php">
@@ -550,7 +542,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="624" y="23" width="1280" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -622,13 +614,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/my_laravele/resources/views/test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.916666">
@@ -789,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.75">
           <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1176472">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="19.82353">
           <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.875">
           <caret line="85" column="9" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="16.625">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,9 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#48#65#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-34.375">
           <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.5">
           <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,21 +964,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.25">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#408#436#0#HTML" expanded="true" />
-            <element signature="e#558#579#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/pdt_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.056995">
+        <state vertical-scroll-proportion="-24.0">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding>
-            <element signature="e#159#174#0#HTML" expanded="true" />
-            <element signature="e#957#977#0#HTML" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15841584">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
