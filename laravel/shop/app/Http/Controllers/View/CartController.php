@@ -26,8 +26,10 @@ class CartController extends Controller
         //获取cookie
         $bk_cart = $request->cookie('bk_cart');
 
+        //拆分","成数组的每个不同的购物车的物品
         $bk_cart_arr = ($bk_cart != null ? explode(",", $bk_cart) : array());
 
+        //获取session member
         $member = $request->session()->get('member', '');
         if ($member != '') {
             $cart_items = $this->syncCart($member->id, $bk_cart_arr);
@@ -38,8 +40,10 @@ class CartController extends Controller
             $index = strpos($value, ":");
             $cart_item = new CartItem;
             $cart_item->id = $key;
+            
             $cart_item->product_id = substr($value, 0, $index);
             $cart_item->count = (int)substr($value, $index + 1);
+
             $cart_item->product = Product::find($cart_item->product_id);
             if ($cart_item->product != null) {
                 array_push($cart_items, $cart_item);
