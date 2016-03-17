@@ -13,6 +13,7 @@ class BookController extends Controller
 {
   public function getCategoryByParentId($parent_id)
   {
+    //获取parent_id为此的类别
     $category=Category::where('parent_id',$parent_id)->get();
 
     $m3_result=new M3Result;
