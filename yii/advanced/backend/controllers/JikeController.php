@@ -5,6 +5,7 @@ use Yii;
 use yii\web\Controller;
 use app\models\people;
 use yii\data\Pagination;
+use yii\web\Cookie;
 
 class JikeController extends Controller
 {
@@ -91,6 +92,11 @@ class JikeController extends Controller
 //        yii\web\Request::scriptUrl：返回 /admin/index.php, 没有path info和查询字符串部分。
 //        yii\web\Request::serverName：返回 example.com, URL中的host name。
 //        yii\web\Request::serverPort：返回 80, 这是web服务中使用的端口。
+
+        $data=array();
+        $data['view_hello-str']='nihao';
+        //携带数据过去
+        return $this->renderPartial('index',$data);
     }
 
     /**
@@ -197,9 +203,7 @@ class JikeController extends Controller
         //foreach ($session as $name => $value) ...
         //foreach ($_SESSION as $name => $value) ...
 
-
         //修改值
-
         $session = Yii::$app->session;
 
         // 如下代码不会生效
@@ -214,6 +218,12 @@ class JikeController extends Controller
 
         // 如下代码也会生效：
         echo $session['captcha']['lifetime'];
+
+        //判断session是否开启
+        $session->open();
+        if($session->isActive){
+            echo 'session is active';
+        }
     }
 
     public function cookieandsession()
@@ -258,6 +268,12 @@ class JikeController extends Controller
         $cookies->remove('language');
         // 等同于以下删除代码
         unset($cookies['language']);*/
+
+        //创建cookie
+        $cookie=\Yii::$app->response->cookies;
+
+        $cookie_data=array('name'=>'user','value'=>'z3');
+        $cookie->add(new Cookie($cookie_data));
 
     }
 }
