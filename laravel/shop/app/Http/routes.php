@@ -60,14 +60,12 @@ Route::group(['prefix' => 'service'], function () {
     Route::get('cart/add/{product_id}', 'Service\CartController@addCart');
     Route::get('cart/delete', 'Service\CartController@deleteCart');
 
-
     Route::post('pay/ali_notify', 'Service\PayController@aliNotify');
     Route::get('pay/ali_result', 'Service\PayController@aliResult');
     Route::get('pay/ali_merchant', 'Service\PayController@aliMerchant');
 
     Route::post('pay/wx_notify', 'Service\PayController@wxNotify');
     Route::get('openid/get', 'Service\PayController@getOpenid');
-
 });
 
 //中间件 检测用户是否登录
