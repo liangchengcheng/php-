@@ -2,15 +2,13 @@
 
 namespace App\Http\Controllers\View;
 
-use App\CartItem;
-use App\Category;
-use App\Entity\PdtContent;
-use App\Entity\PdtImages;
+use App\Entity\CartItem;
+use App\Entity\Category;
 use App\Entity\Product;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Request;
-use App\Order;
-use App\OrderItem;
+use App\Entity\Order;
+use App\Entity\OrderItem;
 use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
@@ -26,43 +24,43 @@ class OrderController extends Controller
         //从购物车获取商品商品id在其中并且会员id是此的购物车列表
         $cart_items = CartItem::where('member_id', $member->id)->whereIn('product_id', $product_ids_arr)->get();
         //初始化订单的对象
-        $order=new Order();
-        $order->member_id=$member->id;
+        $order = new Order();
+        $order->member_id = $member->id;
         $order->save();
 
-        $cart_items_arr=array();
+        $cart_items_arr = array();
         //当前的价格是0
-        $total_price=0;
-        $name='';
-        foreach($cart_items as $cart_item){
+        $total_price = 0;
+        $name = '';
+        foreach ($cart_items as $cart_item) {
             //在商品列表查找对应的商品根据id
-            $cart_item->product=Product::find($cart_item->product_id);
-            if($cart_item->product!=null){
+            $cart_item->product = Product::find($cart_item->product_id);
+            if ($cart_item->product != null) {
                 //当前的价格=购物车商品的价格 乘以 数量
-                $total_price+=$cart_item->product->price*$cart_item->count;
-                $name.=('《'.$cart_item->product->name.'》');
-                array_push($cart_items_arr,$cart_item);
+                $total_price += $cart_item->product->price * $cart_item->count;
+                $name .= ('《' . $cart_item->product->name . '》');
+                array_push($cart_items_arr, $cart_item);
 
-                $order_item=new OrderItem();
+                $order_item = new OrderItem();
                 //订单的id
-                $order_item->order_id=$order->id;
+                $order_item->order_id = $order->id;
                 //商品id
-                $order_item->product_id=$cart_item->product_id;
+                $order_item->product_id = $cart_item->product_id;
                 //商品数量
-                $order_item->count=$cart_item->count;
-                $order_item->pdt_snapshot=json_encode($cart_item->product);
+                $order_item->count = $cart_item->count;
+                $order_item->pdt_snapshot = json_encode($cart_item->product);
                 $order_item->save();
             }
         }
 
         //提交完了要删除购物车的数据
-        CartItem::where('member_id',$member->id)->delete();
+        CartItem::where('member_id', $member->id)->delete();
         //商品的名字
-        $order->name=$name;
+        $order->name = $name;
         //商品的价格
-        $order->total_price=$total_price;
+        $order->total_price = $total_price;
         //商品的id
-        $order->order_no='E'.time().''.$order->id;
+        $order->order_no = 'E' . time() . '' . $order->id;
 
         // JSSDK 相关
         $access_token = WXTool::getAccessToken();
@@ -91,20 +89,21 @@ class OrderController extends Controller
      * @param Request $request
      * @return $this
      */
-    public function toOrderList(Request $request){
-        $member=$request->session()->get('member','');
+    public function toOrderList(Request $request)
+    {
+        $member = $request->session()->get('member', '');
         //在订单的列表查询属于我的订单
-        $orders=Order::where('member_id',$member->id)->get();
+        $orders = Order::where('member_id', $member->id)->get();
         //开始遍历我的订单
-        foreach($orders as $order){
+        foreach ($orders as $order) {
             //查询我的各个订单
-            $order_items=OrderItem::where('order_id',$order->id)->get();
+            $order_items = OrderItem::where('order_id', $order->id)->get();
             //订单的具体的内容条目
-            $order->order_items=$order_items;
-            foreach($order_items as $order_item){
-                $order_item->product=json_encode($order_item->pdt_snapshot);
+            $order->order_items = $order_items;
+            foreach ($order_items as $order_item) {
+                $order_item->product = json_encode($order_item->pdt_snapshot);
             }
         }
-        return view('order_list')->with('orders',$orders);
+        return view('order_list')->with('orders', $orders);
     }
 }
