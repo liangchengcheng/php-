@@ -4,14 +4,8 @@ namespace App\Http\Controllers\Service;
 
 use App\Entity\CartItem;
 use App\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
 use App\Models\M3Result;
-use App\Entity\Member;
-use App\Entity\TempPhone;
-use App\Entity\TempEmail;
-use App\Models\M3Email;
-use App\Tool\UUID;
 use Mail;
 
 class CartController extends Controller
@@ -39,6 +33,7 @@ class CartController extends Controller
                     break;
                 }
             }
+
             if ($exist == false) {
                 //不存在的话就新建一个购物车的物件
                 $cart_item = new CartItem;
@@ -100,7 +95,7 @@ class CartController extends Controller
         }
 
         $product_ids = $request->input('product_ids', '');
-        if($product_ids == '') {
+        if ($product_ids == '') {
             $m3_result->status = 1;
             $m3_result->message = '书籍ID为空';
             return $m3_result->toJson();
@@ -108,12 +103,12 @@ class CartController extends Controller
 
         // 未登录
         $bk_cart = $request->cookie('bk_cart');
-        $bk_cart_arr = ($bk_cart!=null ? explode(',', $bk_cart) : array());
+        $bk_cart_arr = ($bk_cart != null ? explode(',', $bk_cart) : array());
         foreach ($bk_cart_arr as $key => $value) {
             $index = strpos($value, ':');
             $product_id = substr($value, 0, $index);
             // 存在, 删除
-            if(in_array($product_id, $product_ids_arr)) {
+            if (in_array($product_id, $product_ids_arr)) {
                 array_splice($bk_cart_arr, $key, 1);
                 continue;
             }
