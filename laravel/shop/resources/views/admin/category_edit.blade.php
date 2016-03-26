@@ -61,7 +61,7 @@
                 // var index = parent.layer.getFrameIndex(window.name);
                 // parent.$('.btn-refresh').click();
                 // parent.layer.close(index);
-                
+
                 $('#form-category-edit').ajaxSubmit({
                     type: 'post', // 提交方式 get/post
                     url: '/admin/service/category/edit', // 需要提交的 url

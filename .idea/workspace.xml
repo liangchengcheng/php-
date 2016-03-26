@@ -4,13 +4,18 @@
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/category.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/category_add.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/category_edit.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/index.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/login.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/master.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/member.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/member_edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/order.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/order_edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/product.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/product_add.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/product_info.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/admin/category_edit.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/admin/category_edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/shop/resources/views/cart.blade.php" afterPath="$PROJECT_DIR$/laravel/shop/resources/views/cart.blade.php" />
     </list>
     <ignored path="htdocs.iws" />
@@ -33,16 +38,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="category_edit.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/category_edit.blade.php">
+      <file leaf-file-name="product_info.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/product_info.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.18032786">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.12295082">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
-                <element signature="e#1076#1096#0#HTML" expanded="true" />
-                <element signature="e#1844#1907#0#HTML" expanded="true" />
-                <element signature="e#2040#2103#0#HTML" expanded="true" />
-                <element signature="e#2224#2246#0#HTML" expanded="true" />
+                <element signature="e#1499#1562#0#HTML" expanded="true" />
+                <element signature="e#2072#2135#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,11 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/laravel/shop/app/Tool/Validate/ValidateCode.php" />
-        <option value="$PROJECT_DIR$/laravel/shop/app/Models/M3Result.php" />
-        <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Service/MemberController.php" />
-        <option value="$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/MemberController.php" />
-        <option value="$PROJECT_DIR$/laravel/shop/app/Entity/Member.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/PdtContent.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/PdtImages.php" />
         <option value="$PROJECT_DIR$/laravel/shop/app/Entity/TempEmail.php" />
@@ -114,6 +112,11 @@
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/category.blade.php" />
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/category_add.blade.php" />
         <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/category_edit.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/order.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/order_edit.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/product.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/product_add.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/shop/resources/views/admin/product_info.blade.php" />
       </list>
     </option>
   </component>
@@ -127,8 +130,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="433" />
-    <option name="y" value="46" />
+    <option name="x" value="266" />
+    <option name="y" value="51" />
     <option name="width" value="1306" />
     <option name="height" value="731" />
   </component>
@@ -190,62 +193,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +316,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="46" width="1306" height="731" extended-state="0" />
+    <frame x="266" y="51" width="1306" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24425727" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -421,61 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Controllers/View/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding>
-            <element signature="e#45#69#0#PHP" expanded="false" />
-            <element signature="e#3147#3796#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Controllers/Admin/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4166665">
-          <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Console/Commands/Inspire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#71#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/CartItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/app/Entity/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
@@ -843,13 +735,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/category_edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18032786">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="e#1076#1096#0#HTML" expanded="true" />
             <element signature="e#1844#1907#0#HTML" expanded="true" />
             <element signature="e#2040#2103#0#HTML" expanded="true" />
             <element signature="e#2224#2246#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9166667">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="e#2711#2739#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/order_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.25">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-39.791668">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#1451#1485#0#HTML" expanded="true" />
+            <element signature="e#1722#1750#0#HTML" expanded="true" />
+            <element signature="e#1940#1968#0#HTML" expanded="true" />
+            <element signature="e#2149#2177#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/public/admin/js/uploadFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1293375">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/product_add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.25">
+          <caret line="69" column="108" selection-start-line="69" selection-start-column="108" selection-end-line="69" selection-end-column="108" />
+          <folding>
+            <element signature="e#1385#1405#0#HTML" expanded="true" />
+            <element signature="e#1875#1938#0#HTML" expanded="true" />
+            <element signature="e#2036#2058#0#HTML" expanded="true" />
+            <element signature="e#2357#2390#0#HTML" expanded="true" />
+            <element signature="e#2639#2702#0#HTML" expanded="true" />
+            <element signature="e#2802#2824#0#HTML" expanded="true" />
+            <element signature="e#2975#3038#0#HTML" expanded="true" />
+            <element signature="e#3138#3160#0#HTML" expanded="true" />
+            <element signature="e#3311#3374#0#HTML" expanded="true" />
+            <element signature="e#3474#3496#0#HTML" expanded="true" />
+            <element signature="e#3647#3710#0#HTML" expanded="true" />
+            <element signature="e#3810#3832#0#HTML" expanded="true" />
+            <element signature="e#3983#4046#0#HTML" expanded="true" />
+            <element signature="e#4146#4168#0#HTML" expanded="true" />
+            <element signature="e#4379#4416#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/resources/views/admin/product_info.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12295082">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#1499#1562#0#HTML" expanded="true" />
+            <element signature="e#2072#2135#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
