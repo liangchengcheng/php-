@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\M3Result;
 use App\Entity\Member;
-
+use App\Entity\TempPhone;
 use App\Entity\TempEmail;
 use App\Models\M3Email;
 use App\Tool\UUID;
@@ -17,51 +17,33 @@ class MemberController extends Controller
 {
     public function register(Request $request)
     {
-        //用户的用户名(昵称)
-        $nickname = $request->input('nicknme', '');
-        //用户的邮箱可以不写
         $email = $request->input('email', '');
-        //用户的手机号可以不写
         $phone = $request->input('phone', '');
-        //用户的密码
-        $n_password = $request->input('password', '');
-        //再次输入
-        $password = $request->input('n_password', '');
-        //用户的短信验证码
+        $password = $request->input('password', '');
+        $confirm = $request->input('confirm', '');
         $phone_code = $request->input('phone_code', '');
-        //邮箱的验证码
         $validate_code = $request->input('validate_code', '');
 
-        //初始化状态类
         $m3_result = new M3Result;
-        //判断手机和邮箱2选1
+
         if ($email == '' && $phone == '') {
             $m3_result->status = 1;
             $m3_result->message = '手机号或邮箱不能为空';
             return $m3_result->toJson();
         }
-        //判断密码是否符合规则
         if ($password == '' || strlen($password) < 6) {
             $m3_result->status = 2;
             $m3_result->message = '密码不少于6位';
             return $m3_result->toJson();
         }
-        //判断第二次输入的密码
-        if ($n_password == '' || strlen($n_password) < 6) {
-            $m3_result->status = 2;
-            $m3_result->message = '密码不少于6位';
-            return $m3_result->toJson();
-        }
-        //判断2次的密码是否一致
-        if ($password != $n_password) {
-            $m3_result->status = 4;
-            $m3_result->message = '两次密码不相同';
-            return $m3_result->toJson();
-        }
-        //判断用户名是否存在
-        if ($nickname == '' ) {
+        if ($confirm == '' || strlen($confirm) < 6) {
             $m3_result->status = 3;
             $m3_result->message = '确认密码不少于6位';
+            return $m3_result->toJson();
+        }
+        if ($password != $confirm) {
+            $m3_result->status = 4;
+            $m3_result->message = '两次密码不相同';
             return $m3_result->toJson();
         }
 
@@ -72,7 +54,7 @@ class MemberController extends Controller
                 $m3_result->message = '手机验证码为6位';
                 return $m3_result->toJson();
             }
-            //数据库获取手机对应的短信验证码
+
             $tempPhone = TempPhone::where('phone', $phone)->first();
             if ($tempPhone->code == $phone_code) {
                 if (time() > strtotime($tempPhone->deadline)) {
@@ -83,7 +65,7 @@ class MemberController extends Controller
 
                 $member = new Member;
                 $member->phone = $phone;
-                $member->password = md5('lcc' + $password);
+                $member->password = md5('bk' + $password);
                 $member->save();
 
                 $m3_result->status = 0;
@@ -102,7 +84,7 @@ class MemberController extends Controller
                 $m3_result->message = '验证码为4位';
                 return $m3_result->toJson();
             }
-            //这里应该去数据库查询
+
             $validate_code_session = $request->session()->get('validate_code', '');
             if ($validate_code_session != $validate_code) {
                 $m3_result->status = 8;
@@ -112,7 +94,7 @@ class MemberController extends Controller
 
             $member = new Member;
             $member->email = $email;
-            $member->password = md5('lcc' + $password);
+            $member->password = md5('bk' + $password);
             $member->save();
 
             $uuid = UUID::create();
@@ -150,10 +132,15 @@ class MemberController extends Controller
         //获取数据
         $username = $request->get('username', '');
         $password = $request->get('password', '');
+        $validate_code = $request->get('validate_coode', '');
         $m3_result = new M3Result;
-
-        //校验数据......+数据Token
-
+//
+//    $validate_code_session=$request->session()->get('validate_code');
+//    if($validate_code!=$validate_code_session){
+//      $m3_result->status=1;
+//      $m3_result->message="验证码不正确";
+//      return $m3_result->toJson();
+//    }
         if (strpos($username, '@') == true) {
             $member = Member::where('email', $username)->first();
         } else {
@@ -172,7 +159,7 @@ class MemberController extends Controller
             }
         }
         //保存session
-        $request->session()->put('member', $member);
+        //$request->session()->put('member',$member);
         $m3_result->status = 0;
         $m3_result->message = "登录成功";
         return $m3_result->toJson();
