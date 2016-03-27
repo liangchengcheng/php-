@@ -17,6 +17,7 @@ class MemberController extends Controller
 {
     public function register(Request $request)
     {
+        $nickname = $request->input('nickname', '');
         $email = $request->input('email', '');
         $phone = $request->input('phone', '');
         $password = $request->input('password', '');
@@ -42,11 +43,15 @@ class MemberController extends Controller
             return $m3_result->toJson();
         }
         if ($password != $confirm) {
-            $m3_result->status = 4;
+            $m3_result->status = 5;
             $m3_result->message = '两次密码不相同';
             return $m3_result->toJson();
         }
-
+        if ($nickname == '') {
+            $m3_result->status = 4;
+            $m3_result->message = '昵称不能为空';
+            return $m3_result->toJson();
+        }
         // 手机号注册
         if ($phone != '') {
             if ($phone_code == '' || strlen($phone_code) != 6) {
@@ -57,15 +62,17 @@ class MemberController extends Controller
 
             $tempPhone = TempPhone::where('phone', $phone)->first();
             if ($tempPhone->code == $phone_code) {
-                if (time() > strtotime($tempPhone->deadline)) {
-                    $m3_result->status = 7;
-                    $m3_result->message = '手机验证码不正确';
-                    return $m3_result->toJson();
-                }
+//                if (time() > strtotime($tempPhone->deadline)) {
+//                    $m3_result->status = 7;
+//                    $m3_result->message = '手机验证码不正确';
+//                    return $m3_result->toJson();
+//                }
 
                 $member = new Member;
+                $member->qid=UUID::create();
+                $member->nickname=$nickname;
                 $member->phone = $phone;
-                $member->password = md5('bk' + $password);
+                $member->password =$password;
                 $member->save();
 
                 $m3_result->status = 0;
@@ -73,7 +80,7 @@ class MemberController extends Controller
                 return $m3_result->toJson();
             } else {
                 $m3_result->status = 7;
-                $m3_result->message = '手机验证码不正确';
+                $m3_result->message = '手机验证码不正确'.$tempPhone->code;
                 return $m3_result->toJson();
             }
 
@@ -94,7 +101,7 @@ class MemberController extends Controller
 
             $member = new Member;
             $member->email = $email;
-            $member->password = md5('bk' + $password);
+            $member->password = md5('lcc' + $password);
             $member->save();
 
             $uuid = UUID::create();
