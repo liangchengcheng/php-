@@ -28,9 +28,12 @@ Route::group(['prefix' => 'service'], function () {
     Route::get('validate_code/create', 'Service\ValidateController@create');
     Route::post('validate_phone/send', 'Service\ValidateController@sendSMS');
     Route::post('upload/{type}', 'Service\UploadController@uploadFile');
-
+    //注册账号
     Route::post('register', 'Service\MemberController@register');
+    //登录账号
     Route::get('login', 'Service\MemberController@login');
+    //获取简单的选择题
+    Route::get('question', 'Service\QuestionController@getAllQuestion');
 
     Route::get('category/parent_id/{parent_id}', 'Service\BookController@getCategoryByParentId');
     Route::get('cart/add/{product_id}', 'Service\CartController@addCart');
