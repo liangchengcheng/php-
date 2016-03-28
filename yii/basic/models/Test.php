@@ -10,4 +10,12 @@ namespace app\models;
 use yii\db\ActiveRecord;
 class Test extends ActiveRecord{
 
+
+    public function rules(){
+        //数据的基本的验证
+        return[
+            ['id','integer'],
+            ['title','string','length'=>[0,5]]
+        ];
+    }
 }

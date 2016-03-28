@@ -46,4 +46,29 @@ class HelloController extends Controller
 
         print_r($result);
     }
+
+    public function  deleteData(){
+        //删除数据
+        $result=Test::find()->where(['id'=>1])->all();
+        $result[0]->delete();
+
+        //或者这样
+        Test::deleteAll('id>:id',array(':id'=>0));
+
+    }
+
+    public function addData(){
+        //增加数据
+        $result=new Test();
+        $result->id=3;
+        $result->title='llllll';
+
+        //对数据进行校验
+        $result->validate();
+        if($result->hasErrors()){
+            //数据不合法
+            return;
+        }
+        $result->save();
+    }
 }

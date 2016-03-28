@@ -6,11 +6,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/zsb_laravele/app/Tool/SMS/SendTemplateSMS.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/zsb_laravele/app/Tool/UUID.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/zsb_laravele/app/Tool/Validate/ValidateCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/basic/controllers/HelloController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/basic/models/Test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/zsb_laravele/app/Http/Controllers/Service/MemberController.php" afterPath="$PROJECT_DIR$/laravel/zsb_laravele/app/Http/Controllers/Service/MemberController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/zsb_laravele/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/zsb_laravele/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/basic/controllers/HelloController.php" afterPath="$PROJECT_DIR$/yii/basic/controllers/HelloController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/basic/models/Test.php" afterPath="$PROJECT_DIR$/yii/basic/models/Test.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +68,8 @@
       <file leaf-file-name="Test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/basic/models/Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
               </folding>
@@ -80,13 +80,13 @@
       <file leaf-file-name="HelloController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/basic/controllers/HelloController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7295082">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.92622954">
+              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
                 <element signature="e#112#135#0#PHP" expanded="true" />
-                <marker date="1459122324000" expanded="true" signature="274:303" placeholder="select * fro..test..." />
-                <marker date="1459122324000" expanded="true" signature="386:417" placeholder="select * fro..test..." />
+                <marker date="1459122953000" expanded="true" signature="274:303" placeholder="select * fro..test..." />
+                <marker date="1459122953000" expanded="true" signature="386:417" placeholder="select * fro..test..." />
               </folding>
             </state>
           </provider>
@@ -171,8 +171,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="740" />
-    <option name="y" value="51" />
+    <option name="x" value="581" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
   </component>
@@ -390,7 +390,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="740" y="51" width="1280" height="731" extended-state="0" />
+    <frame x="581" y="23" width="1280" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -749,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4918033">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/basic/models/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
           </folding>
@@ -827,13 +828,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/basic/controllers/HelloController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7295082">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.92622954">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
             <element signature="e#112#135#0#PHP" expanded="true" />
-            <marker date="1459122324000" expanded="true" signature="274:303" placeholder="select * fro..test..." />
-            <marker date="1459122324000" expanded="true" signature="386:417" placeholder="select * fro..test..." />
+            <marker date="1459122953000" expanded="true" signature="274:303" placeholder="select * fro..test..." />
+            <marker date="1459122953000" expanded="true" signature="386:417" placeholder="select * fro..test..." />
           </folding>
         </state>
       </provider>
