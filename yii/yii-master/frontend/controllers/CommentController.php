@@ -57,12 +57,14 @@ class CommentController extends Controller
         $query = Comment::find()->where(['article_id' => $article_id]);
         $countQuery = clone $query;
         $pages = new Pagination(['totalCount' => $countQuery->count()]);
+
         $models = $query->offset($pages->offset)
             ->orderBy('created_at desc')
             ->limit($pages->limit)
             ->with('user')
             ->asArray()
             ->all();
+
         $hasNext = 0;
         if ($page < $pages->pageCount) {
             $hasNext = 1;

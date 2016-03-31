@@ -10,6 +10,12 @@ use yii\web\Controller;
 
 class QrcodeController extends Controller
 {
+    /**
+     * 生成验证码
+     * @param $text
+     * @param int $size
+     * @param bool|false $logo
+     */
     public function actionIndex($text, $size = 5, $logo = false)
     {
         $tmpFileName = '/tmp/qrcode.png';

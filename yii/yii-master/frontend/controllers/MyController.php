@@ -47,6 +47,7 @@ class MyController extends Controller
             'webupload' => 'yidashi\webuploader\WebuploaderAction',
         ];
     }
+
     public function actionArticleList()
     {
         $userId = \Yii::$app->user->id;
@@ -66,6 +67,7 @@ class MyController extends Controller
             'pages' => $pages,
         ]);
     }
+
     public function actionCreateArticle()
     {
         $model = new Article();
