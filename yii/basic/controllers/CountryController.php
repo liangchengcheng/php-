@@ -7,46 +7,75 @@
  */
 namespace app\controllers;
 
+use app\models\Country;
 use app\models\Order;
+use yii\data\Pagination;
 use yii\web\Controller;
 use app\models\Test;
 use app\models\Custorm;
 
-
-//http://www.yiichina.com/doc/guide/2.0/structure-controllers#routes
-class HelloController extends Controller
+/**
+ * 关于分页的基本的代码
+ * http://www.xker.com/page/e2014/1205/148195.html
+ * http://www.yiichina.com/code/107
+ * Class CountryController
+ * @package app\controllers
+ */
+class CountryController extends Controller
 {
+    public function actionIndex()
+    {
+        $query = Country::find();
 
-    //路由
-    //http://localhost/index.php?
-    //r=site/view
-    //上面的会访问到controllers/siteController的控制器
-    //里面的actionView(){}
+        $pagination = new Pagination([
+            'defaultPageSize' => 5,
+            'totalCount' => $query->count(),
+        ]);
+
+        $countries = $query->orderBy('name')
+            ->offset($pagination->offset)
+            ->limit($pagination->limit)
+            ->all();
+
+        //返回分页的数据
+        return $this->render('index', [
+            'countries' => $countries,
+            'pagination' => $pagination,
+        ]);
+//        下面为一些示例，假设yii\base\Application::controllerNamespace控制器命名空间为 app\controllers:
+//
+//        article 对应 app\controllers\ArticleController;
+//        post-comment 对应 app\controllers\PostCommentController;
+//        admin/post-comment 对应 app\controllers\admin\PostCommentController;
+//        adminPanels/post-comment 对应 app\controllers\adminPanels\PostCommentController.
 
 
-    //r=admin/site/view
-    //会访问到modules/admin/controllers/siteController.PHP
-
-
-    //ControllerID/ActionID
-
-    //如果属于模块下的控制器，使用如下格式：
-
-    //ModuleID/ControllerID/ActionID
-
-    public function actions(){
-        return[
-            'update'=>'controllers.UpdateAction'
-        ];
     }
 
-    //CurlManager
-    //$url=\Yii:$app->urlManager->createUrl($params);
+    /**
+     * 场景和规则的基本的使用
+     */
+    public function actionLike()
+    {
+        $model = new \app\models\Country();
 
-    //url=\Yii:$app->urlManager->createAbsoluteUrl($params);
+        // 用户输入数据赋值到模型属性
+        $model->attributes = \Yii::$app->request->post('Country');
 
-    //post/update?id=100
-    //$url=\Yii:$app->urlManager->createUrl(['post/update','id=>100]);
+        if ($model->validate()) {
+            // 所有输入数据都有效 all inputs are valid
+        } else {
+            // 验证失败：$errors 是一个包含错误信息的数组
+            $errors = $model->errors;
+        }
+    }
 
+    public function actionJson()
+    {
+        // 将模型转换为数组最简单的方式是使用 yii\base\Model::attributes 属性，例如：
+        //或者yii\base\Model::toArray()  这个可以指定字段
+        $country = \app\models\Country::findOne(100);
+        $array = $country->attributes;
+    }
 }
 
