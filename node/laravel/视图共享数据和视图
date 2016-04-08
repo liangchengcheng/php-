@@ -1,0 +1,82 @@
+除了在单个视图中传递指定数据之外，有时候需要在所有视图中传入同一数据，即我们需要在不同视图中共享数据。要实现这一目的，需要使用视图工厂的share方法。
+
+全局帮助函数view和前面一节提到的response类似，如果传入参数，则返回Illuminate\View\View实例，不传入参数则返回Illuminate\View\Factory实例。所以我们可以通过在服务提供者的boot方法中使用如下方式实现视图间共享数据：
+
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        //视图间共享数据
+        view()->share('sitename','Laravel学院');
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+}
+我们在routes.php中定义两个路由：
+
+Route::get('testViewHello',function(){
+    return view('hello');
+});
+
+Route::get('testViewHome',function(){
+    return view('home');
+});
+然后在resources/views目录下创建一个home.blade.php视图文件，内容如下：
+
+{{$sitename}}首页
+再创建一个hello.blade.php视图文件：
+
+欢迎来到{{$sitename}}！
+在浏览器中分别访问http://laravel.app:8000/testViewHello和http://laravel.app:8000/testViewHome，则都能解析出$sitename的值。
+
+
+
+
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        //视图间共享数据
+        view()->share('sitename','Laravel学院');
+
+        //视图Composer
+        view()->composer('hello',function($view){
+            $view->with('user',array('name'=>'test','avatar'=>'/path/to/test.jpg'));
+        });
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+}

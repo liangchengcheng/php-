@@ -1,0 +1,8 @@
+//文件下载.
+
+Route::get('testResponseDownload',function(){
+    return response()->download(
+        realpath(base_path('public/images')).'/laravel-5-1.jpg',
+        'Laravel学院.jpg'
+    );
+});

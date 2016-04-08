@@ -1,0 +1,81 @@
+// 基本重定向
+
+Route::get('dashboard', function () {
+    return redirect('home/dashboard');
+});
+如果要重定向到上一个位置，则使用back方法：
+
+Route::post('user/profile', function () {
+    // 验证请求...
+    return back()->withInput();
+});
+
+
+
+
+
+
+
+// 重定向到命名路由
+
+使用route方法重定向到命名路由：
+
+Route::get('/hello/laravelacademy',['as'=>'academy',function(){
+    return 'Hello LaravelAcademy';
+}]);
+
+Route::get('testResponseRedirect',function(){
+    return redirect()->route('academy');
+});
+在浏览器中访问http://laravel.app:8000/testResponseRedirect，页面会跳转到http://laravel.app:8000/hello/laravelacademy并输出：
+
+Hello LaravelAcademy
+如果命名路由中有参数，那么我们可以在route中传入参数：
+
+Route::get('/hello/laravelacademy/{id}',['as'=>'academy',function($id){
+    return 'Hello LaravelAcademy '.$id;
+}]);
+
+Route::get('testResponseRedirect',function(){
+    return redirect()->route('academy',100);
+});
+在浏览器中访问http://laravel.app:8000/testResponseRedirect，页面会跳转到http://laravel.app:8000/hello/laravelacademy/100并输出：
+
+Hello LaravelAcademy 100
+
+
+
+
+
+
+//重定向到控制器动作
+
+使用action方法重定向到控制器动作：
+
+Route::resource('post','PostController');
+
+Route::get('testResponseRedirect',function(){
+    return redirect()->action('PostController@index');
+});
+在浏览器中访问http://laravel.app:8000/testResponseRedirect，则页面会跳转到http://laravel.app:8000/post并输出对应内容。
+
+当然也可以传递参数到action方法：
+
+Route::get('testResponseRedirect',function(){
+    return redirect()->action('PostController@show',[1]);
+});
+
+
+
+
+
+
+
+//带一次性Session数据的重定向
+
+使用with方法可以携带一次性session数据到重定向请求页面（一次性session数据即使用后立即销毁的session数据项）：
+
+Route::post('user/profile', function () {
+    // 更新用户属性...
+    return redirect('dashboard')->with('status', 'Profile updated!');
+});
