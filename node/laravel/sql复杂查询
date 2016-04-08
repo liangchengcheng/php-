@@ -17,3 +17,24 @@ dd($users);
 //联合查询 union
 $user=DB::table('users')->where('id','<',3);
 $users=DB::table('users')->where('id','<',3)->union($users)->get();
+
+
+//复杂的where字句
+$user=DB::TABLE('users')->where('name','=','梁铖城')->get();
+
+
+or
+$user = DB::table('users')->where('name','Laravel')->orWhere('name','Academy')->get();
+
+
+
+
+//排序
+$user=DB::table('users')->orderBy('id','desc')->get();
+dd($users);
+
+
+$posts = DB::table('posts')
+->select('cat_id',DB::raw('COUNT(id) as num'))
+->groupBy('cat_id')->get();
+dd($posts);

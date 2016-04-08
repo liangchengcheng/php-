@@ -1,0 +1,6 @@
+//最基本的分页
+
+0开始 取2个数据
+
+$user=DB::table('ports')->skip(0)-take(2)-get();
+dd($user);

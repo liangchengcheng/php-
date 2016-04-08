@@ -1,0 +1,32 @@
+
+//常见的方式就是ActivityRecord 和DataMapper
+
+
+
+//指定表的名字
+public $table = 'posts';
+
+//指定主键
+public $primaryKey = 'id';
+
+//设置时间戳
+
+默认情况下，Eloquent模型类会自动管理时间戳列create_at和update_at（如果定义迁移时设置了这两列的话），如果要取消自动管理，可以设置$timestamps属性为false：
+
+public $timestamps = false;
+
+
+
+
+
+
+
+/获取单个模板的数据
+$post = Post::where('id',1)->first();
+dd($post);
+$post = Post::find(1);
+
+
+
+//获取数量
+$count = Post::where('id','>',0)->count();
