@@ -1,0 +1,47 @@
+http://laravelacademy.org/post/549.html
+
+
+/**
+* 创建新文章表单页面
+*
+* @return Response
+*/
+public function create()
+{
+    $postUrl = route('post.store');
+    $csrf_field = csrf_field();
+    $html = <<<CREATE
+        <form action="$postUrl" method="POST">
+            $csrf_field
+            <input type="text" name="title"><br/><br/>
+            <textarea name="content" cols="50" rows="5"></textarea><br/><br/>
+            <input type="submit" value="提交"/>
+        </form>
+CREATE;
+    return $html;
+}
+
+/**
+* 将新创建的文章存储到存储器
+*
+* @param Request $request
+* @return Response
+*/
+public function store(Request $request)
+{
+    $title = $request->input('title');
+    $content = $request->input('content');
+    $post = ['title'=>trim($title),'content'=>trim($content)];
+
+    $posts = Cache::get('posts',[]);
+
+    if(!Cache::get('post_id')){
+        Cache::add('post_id',1,60);
+    }else{
+        Cache::increment('post_id',1);
+    }
+    $posts[Cache::get('post_id')] = $post;
+
+    Cache::put('posts',$posts,60);
+    return redirect()->route('post.show',['post'=>Cache::get('post_id')]);
+}

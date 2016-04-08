@@ -1,0 +1,41 @@
+
+
+[get]使用get的方式定义
+
+Route::get('/hello',function(){
+    return "hello laravel get"
+});
+
+输出hello laravel get
+=============================================================
+[post]
+Route::get('/testPost',function(){
+    $csrf_token = csrf_token();
+    $form = <<<FORM
+        <form action="/hello" method="POST">
+            <input type="hidden" name="_token" value="{$csrf_token}">
+            <input type="submit" value="Test"/>
+        </form>
+FORM;
+    return $form;
+});
+
+Route::post('/hello',function(){
+    return "Hello Laravel[POST]!";
+});
+//上面的csrf是自带的安全的验证
+
+=============================================================
+还可以使用Route门面上的match方法匹配多种请求方式：
+
+Route::match(['get','post'],'/hello',function(){
+   return "Hello Laravel!";
+});
+
+当然还使用更方便的any方法匹配所有请求方式：
+
+Route::any('/hello',function(){
+    return "Hello Laravel!";
+});
+
+

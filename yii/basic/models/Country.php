@@ -52,4 +52,15 @@ class Country extends ActiveRecord
             [['username', 'password'], 'required', 'on' => 'login'],
         ];
     }
+
+    // 过滤掉一些字段，特别用于你想继承父类实现并不想用一些敏感字段
+    public function fields()
+    {
+        $fields = parent::fields();
+
+        // 去掉一些包含敏感信息的字段
+        unset($fields['auth_key'], $fields['password_hash'], $fields['password_reset_token']);
+
+        return $fields;
+    }
 }

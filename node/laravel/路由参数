@@ -1,0 +1,57 @@
+Route::get('/hello/{name}',function($name){
+    return "Hello {$name}!";
+});
+在浏览器中访问http://laravel.app:8000/hello/Laravel输出：
+
+Hello Laravel![就是获取name  {}]
+
+
+
+
+
+
+
+
+
+
+当然还可以指定多个参数：
+
+Route::get('/hello/{name}/by/{user}',function($name,$user){
+    return "Hello {$name} by {$user}!";
+});
+这样在浏览器中访问http://laravel.app:8000/hello/Laravel/by/Laravel学院则会输出：
+
+Hello Laravel by Laravel学院!
+注意以上参数是必选的，如果没有输入参数会抛出MethodNotAllowedHttpException或NotFoundHttpException异常。
+
+
+有时候我们并不总是想要输入对应参数，也就是说，我们期望参数是可有可无的，我们通过这种方式来定义：
+
+Route::get('/hello/{name?}',function($name="Laravel"){
+    return "Hello {$name}!";
+});
+我们同时为可选参数指定了默认值，这样当我们访问http://laravel.app:8000/hello时输出：
+
+Hello Laravel！
+当我们访问http://laravel.app:8000/hello/Laravel学院的时候输出：
+
+Hello Laravel学院！({变量的名字?})
+
+
+
+
+
+正则的约束
+   Route:get('/hello/{name?}',function($name='laravle'){
+        return 'hello{$name}';
+   })-where('name','[A-Za-z]+');
+
+   该条件约束意味着$name参数只能包含大小写字母，如果包含数字或中文就会抛出NotFoundHttpException异常。
+
+   如果我们想要在全局范围内对参数进行条件约束，可以在RouteServiceProvider的boot方法中做如下定义：
+
+   public function boot(Router $router)
+   {
+       $router->pattern('name','[A-Za-z]+');
+       parent::boot($router);
+   }

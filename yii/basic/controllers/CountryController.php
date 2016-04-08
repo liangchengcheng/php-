@@ -74,6 +74,7 @@ class CountryController extends Controller
     {
         // 将模型转换为数组最简单的方式是使用 yii\base\Model::attributes 属性，例如：
         //或者yii\base\Model::toArray()  这个可以指定字段
+        //$array = $model->toArray([], ['prettyName', 'fullAddress']);
         $country = \app\models\Country::findOne(100);
         $array = $country->attributes;
     }

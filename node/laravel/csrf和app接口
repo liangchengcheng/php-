@@ -1,0 +1,77 @@
+
+HTTP路由实例教程（三）—— CSRF攻击原理及其防护
+ 发布于 2015年8月24日
+Laravel中避免CSRF攻击
+1、什么是CSRF攻击
+CSRF是跨站请求伪造（Cross-site request forgery）的英文缩写。关于CSRF攻击原理及其防护，可查看Github上的这个项目：理解CSRF，说得比较详细和透彻。
+
+2、Laravel中如何避免CSRF攻击
+Laravel框架中避免CSRF攻击很简单：Laravel自动为每个用户Session生成了一个CSRF Token，该Token可用于验证登录用户和发起请求者是否是同一人，如果不是则请求失败。
+
+Laravel提供了一个全局帮助函数csrf_token来获取该Token值，因此只需在视提交图表单中添加如下HTML代码即可在请求中带上Token：
+
+<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+该段代码等同于全局帮助函数csrf_field的输出：
+
+<?php echo csrf_field(); ?>
+在Blade模板引擎中还可以使用如下方式调用：
+
+{!! csrf_field() !!}
+测试代码
+
+我们在routes.php中定义如下代码：
+
+Route::get('testCsrf',function(){
+    $csrf_field = csrf_field();
+    $html = <<<GET
+        <form method="POST" action="/testCsrf">
+            {$csrf_field}
+            <input type="submit" value="Test"/>
+        </form>
+GET;
+    return $html;
+});
+
+Route::post('testCsrf',function(){
+    return 'Success!';
+});
+在浏览器中我们输入http://laravel.app:8000/testCsrf，点击“Test”按钮，浏览器输出：
+
+Success！
+则表示请求成功，否则，如果我们定义GET路由如下：
+
+Route::get('testCsrf',function(){
+    $html = <<<GET
+        <form method="POST" action="/testCsrf">
+            <input type="submit" value="Test"/>
+        </form>
+GET;
+    return $html;
+});
+则点击“Test”按钮，则抛出TokenMismatchException异常。
+
+3、从CSRF验证中排除指定URL
+并不是所有请求都需要避免CSRF攻击，比如去第三方API获取数据的请求。
+
+可以通过在VerifyCsrfToken（app/Http/Middleware/VerifyCsrfToken.php）中间件中将要排除的请求URL添加到$except属性数组中：
+
+<?php
+
+    namespace App\Http\Middleware;
+
+    use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
+
+    class VerifyCsrfToken extends BaseVerifier
+    {
+        /**
+         * 指定从 CSRF 验证中排除的URL
+         *
+         * @var array
+         */
+        protected $except = [
+            'testCsrf'
+        ];
+    }
+这样我们刷新页面，再次在http://laravel.app:8000/testCsrf页面中点击“Test”按钮，则页面不会报错，正常输出如下内容：
+
+Success!

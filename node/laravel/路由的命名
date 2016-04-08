@@ -1,0 +1,33 @@
+我们使用as关键字来为路由命名：
+
+Route::get('/hello/laravelacademy',['as'=>'academy',function(){
+    return 'Hello LaravelAcademy！';
+}]);
+
+
+可以使用route完成重定向  ==输出
+Route::get('/test',function(){
+    return route('academy')
+})
+
+//重定向也可以直接这样   ==跳转
+Route::get('/testNamedRoute',function(){
+    return redirect()->route('academy');
+});
+
+
+
+
+Route::get('/testNamedRoute',function(){
+    return redirect()->route('academy',['id'=>1]);
+});
+这样，当我们在浏览器中访问http://laravel.app:8000/testNamedRoute时
+会跳转到http://laravel.app:8000/hello/laravelacademy/1
+
+
+//分组
+Route::group(['as' => 'admin::'], function () {
+    Route::get('dashboard', ['as' => 'dashboard', function () {
+        //
+    }]);
+});

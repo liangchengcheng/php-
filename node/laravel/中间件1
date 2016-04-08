@@ -1,0 +1,52 @@
+2.1 中间件
+
+首先我们在应用根目录下运行如下Artisan命令生成一个测试用的中间件TestMiddleware：
+
+php artisan make:middleware TestMiddleware
+这样会在/app/Http/Middleware目录下生成一个TestMiddleware.php文件，打开该文件编辑TestMiddleware类的handle方法如下：
+
+public function handle($request, Closure $next)
+{
+    if($request->input('age')<18)
+        return redirect()->route('refuse');
+    return $next($request);
+}
+我们在中间件中定义这段业务逻辑的目的是年龄18岁以下的未成年人不能访问。
+
+然后我们打开/app/Http/Kernal.php文件，新增TestMiddleware到Kernel的$routeMiddleware属性：
+
+protected $routeMiddleware = [
+    'auth' => \App\Http\Middleware\Authenticate::class,
+    'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+    'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+    'test' => \App\Http\Middleware\TestMiddleware::class,
+];
+接下来我们在routes.php中定义路由如下：
+
+Route::group(['middleware'=>'test'],function(){
+    Route::get('/write/laravelacademy',function(){
+        //使用Test中间件
+    });
+    Route::get('/update/laravelacademy',function(){
+       //使用Test中间件
+    });
+});
+
+Route::get('/age/refuse',['as'=>'refuse',function(){
+    return "未成年人禁止入内！";
+}]);
+
+
+//中间件在group
+Route::group(['middleware'=>'test:male'],function(){
+    Route::get('/write/laravelacademy',function(){
+        //使用Test中间件
+    });
+    Route::get('/update/laravelacademy',function(){
+        //使用Test中间件
+    });
+});
+
+Route::get('/age/refuse',['as'=>'refuse',function(){
+    return "18岁以上男子才能访问！";
+}]);
