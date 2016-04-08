@@ -1,0 +1,83 @@
+
+//获取上传的参数test
+$input = $request->input('test');
+
+
+
+//获取url的路径
+public function getUrl(Request $request)
+{
+    //匹配request/*的URL才能继续访问
+    if(!$request->is('request/*')){
+        abort(404);
+    }
+    $uri = $request->path();
+    $url = $request->url();
+    echo $uri;
+    echo '<br>';
+    echo $url;
+}
+我们在浏览器中访问http://laravel.app:8000/request/url，页面输入如下内容：
+
+request/url
+http://laravel.app:8000/request/url
+
+
+//获取请求的方法
+public function getMethod(Request $request){
+    //不是get的话就不让
+    if(!$request->isMethod('get')){
+        abort(404);
+    }
+    $method=$request->method();
+    echo $method;
+}
+
+
+//获取请求的数据
+获取GET方式传递的name参数，默认为LaravelAcademy
+$name = $request->input('name','LaravelAcademy');
+
+
+//判断是否存在
+if($request->has('hello'))
+    echo $request->input('hello');
+
+
+想要获取所有输入参数值，可以使用Request实例上的all方法；想要获取部分输入值，可使用only方法；想要排除部分输入参数值，可使用except方法：
+
+public function getInputData(Request $request){
+
+    $allData = $request->all();
+    $onlyData = $request->only('name','hello');
+    $exceptData = $request->except('hello');
+
+    echo '<pre>';
+    print_r($allData);
+    print_r($onlyData);
+    print_r($exceptData);
+}
+
+
+
+
+//上一次请求输入
+
+上面的方法都是用于获取当前请求的输入，如果想要获取上一次请求的输入，需要在处理上一次请求时使用Request实例上的flash方法将请求数据暂时保存到session中，然后在当前请求中使用Request实例上的old方法获取session中保存的数据，获取到数据后就会将session中保存的请求数据销毁：
+
+public function getLastRequest(Request $request){
+    $request->flash();
+}
+
+public function getCurrentRequest(Request $request){
+    $lastRequestData = $request->old();
+    echo '<pre>';
+    print_r($lastRequestData);
+}
+如果我们想要在上次请求保存数据后重定向到当前请求URL，则可以使用如下方式定义getLastRequest方法：
+
+public function getLastRequest(Request $request){
+    //$request->flash();
+    return redirect('/request/current-request')->withInput();
+}
+

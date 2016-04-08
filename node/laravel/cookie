@@ -1,0 +1,33 @@
+
+//获取COOKIE的数据
+public function getCookie(Request $request){
+    $cookies=$request->cookie();
+    dd($cookies);
+}
+
+//同时我们可以在respponse的方法上面新增一个cookie
+public function getAddCookie(){
+
+    $response=new Response();
+
+    //第一个参数是cookie的名字 第二个参数是cookie的值,
+    //第三个参数是cookie的有效期(分钟)
+
+    $response-withCookie(cookie('cookiename','cookievalue',1));
+
+    //要是你想cookie长期有效的话
+    $response-withCookie(cookie()->forever('name','value));
+
+    return $response;
+
+}
+
+
+
+//当然你也可直接定义getCookie的方法
+public function getCookie(Request $request){
+      $cookie=$request->cookie('cookie_name');
+      echo $cookie;
+}
+
+
