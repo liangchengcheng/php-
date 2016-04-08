@@ -1,0 +1,49 @@
+首先你得去config里面去配置相关的内容
+
+在控制器里面
+use DB;
+
+public function index(){
+
+    //增加的语句
+    DB::insert('insert into users(id,name,password) values (?,?,?)',[1,'梁铖城','123']);
+
+    //查询语句
+    $user=DB::select('select * from users where id=?',[110]);
+
+    //防止sql 命名绑定
+    $user=DB::select(select * from users where id=':id',[':id'=>110]);
+
+    //更新
+    $affect=DB::update('update users set name="dsb" where name=?',[
+    'lcc'
+    ]);
+
+    //删除
+    $deleteid=DB::delete('delete from users');
+
+    //通用语句
+    DB:statment('drop table users');
+
+    //监听查询事件
+
+    DB::listen(function($sql,$bindings,$time){
+
+    });
+
+    //事物
+    DB门面提供两种方式支持数据库事务，一种是调用transaction方法然后传入闭包作为参数，我们将需要进行事务操作的逻辑放到闭包函数内：
+
+    DB::transaction(function () {
+        DB::table('users')->update(['id' => 1]);
+        DB::table('posts')->delete();
+    });
+    另一种是 beginTransaction、 rollBack和 commit三个方法一起使用从而构建一个完整的事务操作：
+
+    DB::beginTransaction();
+    if($somethingIsFailed){
+        DB::rollback();
+        return false;
+    }
+    DB::commit();
+}

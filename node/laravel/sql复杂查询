@@ -1,0 +1,19 @@
+//内联接
+//内连接用于获取两张表结果集的交集部分
+$users=DB::table('users')
+->join('ports','users.id','=','ports.user_id')->get();
+dd($users);
+
+
+
+//左链接
+//左连接的结果集指定的左表的所有行，如果左表的某行在右表中没有匹配行，
+//则在相关联的结果集行中右表的所有选择列表列均为空值(null)。我们使用查询构建器的leftJoin方法进行左连接查询：
+$users=DB::table('users')->leftJoin('ports','user_id','=','ports.user_id')->get();
+dd($users);
+
+
+
+//联合查询 union
+$user=DB::table('users')->where('id','<',3);
+$users=DB::table('users')->where('id','<',3)->union($users)->get();

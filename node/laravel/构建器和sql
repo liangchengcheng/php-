@@ -1,0 +1,62 @@
+$users = DB::table('users');
+
+//增加数据
+DB:table('users')->insert(
+['id'=>1,'name'=>'lcc','pwd'=>'123'],
+['id'=>1,'name'=>'lcc2','pwd'=>'1234']);
+
+
+
+//更新数据
+$affected=DB::table('users')->where('name','lcc')->update(
+['pwd'=>'1111111']);
+
+
+
+//删除数据
+$deleted=DB::TABLE('USERS')->where('id','>',3)->delete();
+//全部数据的删除
+DB::table('users')->truncate();
+
+
+//查询一个表的全部的数据
+$users=DB::table('users')->get();
+
+//查询指定的列的数据
+$user=DB::table('users')->select('name','pwd')->get();
+
+
+
+//获取单个数据
+->first();
+
+
+//❤️分组块获取数据
+
+如果数据库包含多条数据，则一次性获取会极大影响性能，对应地，我们可以调用chunk方法分组块获取数据：
+
+DB::table('users')->chunk(2,function($users){
+    foreach($users as $user){
+        // if($user->name=='LaravelAcademy')
+            // return false;
+        echo $user->name.'<br>';
+    }
+});
+这里我们指定每次取两条记录。注释部分的意思是我们可以设定查询退出条件，当达到该条件时，查询退出，不再往下执行。
+
+
+
+
+
+//获取单列的值
+
+上述方法获取的查询结果都是对象实例/对象实例数组，有时候，我们只是想简单获取单列的值，遍历数组获取指定列的值太麻烦，可以使用lists方法获取列值数组：
+
+$users = DB::table('users')->lists('name');
+dd($users);
+
+
+
+
+//原生的sql
+$user=DB::table('users')->select(DB::raw('name,email'))->where('id','<',3)->get();
