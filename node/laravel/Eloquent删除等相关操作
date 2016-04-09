@@ -1,0 +1,23 @@
+
+
+$post=Post::find();
+if($post->delete()){
+    echo '删除成功';
+}else{
+    echo ''删除文章失败;
+}
+
+//使用destroy删除模型
+//删除id是5的模具
+$deleted=Post::destroy(5);
+//删除多个模具的
+$deleted=Post::destroy([1,2,3,4]);
+
+
+
+//你也可以使用查询构建器
+$deleted = Models\Post::where('view',0)->delete();
+
+
+
+

@@ -1,0 +1,81 @@
+软删除实现
+http://laravelacademy.org/post/1020.html
+
+
+
+
+上述删除方法都会将数据表记录从数据库删除，此外Eloquent模型还支持软删除。
+
+所谓软删除指的是数据表记录并未真的从数据库删除，而是将表记录的标识状态标记为软删除，这样在查询的时候就可以加以过滤，让对应表记录看上去是被”删除“了。Laravel中使用了一个日期字段作为标识状态，这个日期字段可以自定义，这里我们使用deleted_at，如果对应模型被软删除，则deleted_at字段的值为删除时间，否则该值为空。
+
+要让Eloquent模型支持软删除，还要做一些设置。首先在模型类中要使用SoftDeletestrait，该trait为软删除提供一系列相关方法，具体可参考源码Illuminate\Database\Eloquent\SoftDeletes，此外还要设置$date属性数组，将deleted_at置于其中：
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class Post extends Model
+{
+    use SoftDeletes;
+
+    //设置表名
+    public $table = 'posts';
+
+    //设置主键
+    public $primaryKey = 'id';
+
+    //设置日期时间格式
+    public $dateFormat = 'U';
+
+    protected $guarded = ['id','views','user_id','updated_at','created_at'];
+
+    protected $dates = ['delete_at'];
+}
+然后对应的数据库posts中添加deleted_at列，我们使用迁移来实现，先执行Artisan命令：
+
+php artisan make:migration alter_posts_deleted_at --table=posts
+然后编辑生成的PHP文件如下：
+
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AlterPostsDeletedAt extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('posts', function (Blueprint $table) {
+            $table->softDeletes();
+        });
+    }
+
+    ...//其它方法
+}
+然后运行：
+
+php artisan migrate
+这样posts中就有了deleted_at列。接下来，我们在控制器中编写测试代码：
+
+$post = Post::find(6);
+$post->delete();
+if($post->trashed()){
+    echo '软删除成功！';
+    dd($post);
+}else{
+    echo '软删除失败！';
+}
+在浏览器中访问http://laravel.app:8000/test，页面输出如下：
+
+软删除后模型不显示
+
+
+
