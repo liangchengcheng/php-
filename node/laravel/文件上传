@@ -33,3 +33,8 @@ public function postFileupload(Request $request){
     }
     exit('文件上传成功！');
 }
+
+
+//保存上传的文件
+$request->file('photo')->move($destinationPath);
+$request->file('photo')->move($destinationPath, $fileName);
