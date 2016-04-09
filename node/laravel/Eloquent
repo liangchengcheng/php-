@@ -1,32 +1,68 @@
-
-//常见的方式就是ActivityRecord 和DataMapper
-
-
-
-//指定表的名字
-public $table = 'posts';
-
-//指定主键
-public $primaryKey = 'id';
-
-//设置时间戳
-
-默认情况下，Eloquent模型类会自动管理时间戳列create_at和update_at（如果定义迁移时设置了这两列的话），如果要取消自动管理，可以设置$timestamps属性为false：
-
-public $timestamps = false;
+//save保存数据
+$post = new Post;
+$post->title = 'test 4';
+$post->content = 'test content';
+$post->user_id = 1;
+$post->cat_id = 1;
+if($post->save()){
+    echo '添加文章成功！';
+}else{
+    echo '添加文章失败！';
+}
 
 
 
 
+数量很多的时候save简直就是噩梦好吧
+$post = Post::create(Input::all());
 
 
 
-/获取单个模板的数据
-$post = Post::where('id',1)->first();
-dd($post);
-$post = Post::find(1);
+
+//定义在$fillable中的属性可以通过批量赋值进行赋值，而定义在$guarded中的属性在批量赋值时会被过滤掉。
+
+  那么如果我们确实想要修改定义在$guarded中的属性怎么办？答案是使用save方法。
+
+  此外需要注意的是$fillable和$guarded方法同时只能定义一个，原因嘛很简单，非黑即白，定义了一个另外一个也就确定了。
 
 
 
-//获取数量
-$count = Post::where('id','>',0)->count();
+
+
+
+  protected $guarded = ['views','user_id','updated_at','created_at'];
+  然后在控制器中实现创建模型实例的逻辑：
+
+  $input = [
+      'title'=>'test 5',
+      'content'=>'test content',
+      'cat_id'=>1,
+      'views'=>100,
+      'user_id'=>2
+  ];
+  $post = Post::create($input);
+  dd($post);
+
+
+
+
+
+
+
+
+
+  //更新======================
+  //$input = [
+        'title'=>'test 6 title',
+        'content'=>'test content 6',
+        'cat_id'=>1,
+        'views'=>200,
+        'user_id'=>1
+    ];
+    $post = Post::find(6);
+    if($post->update($input)){
+        echo '更新文章成功！';
+        dd($post);
+    }else{
+        echo '更新文章失败！';
+    }
