@@ -19,3 +19,48 @@ Route::get('testResponseCookie',function(){
 Route::get('testResponseJson',function(){
     return response()->json(['name'=>'LaravelAcademy','passwd'=>'LaravelAcademy.org']);
 });
+
+
+
+//文件下载
+return response()->download($pathToFile);
+return response()->download($pathToFile, $name, $headers);
+
+
+//请求重定向
+return redirect('home/dashboard');
+
+//返回操作
+return back()->withInput();
+
+//重定向到命名路由上
+return redirect()->route('login');
+
+
+//要是路由中有参数，可以将其作为第二个参数传递到 route 方法：
+
+    // For a route with the following URI: profile/{id}
+    return redirect()->route('profile', [1]);
+
+
+//如果要重定向到带 ID 参数的路由（ Eloquent 模型绑定 ），
+可以传递模型本身，ID 会被自动解析出来：
+
+    return redirect()->route('profile', [$user]);
+
+
+//重定向到控制器动作
+
+    你还可以生成重定向到控制器动作，只需简单传递控制器和动作名到 action 方法即可。
+    记住，你不需要指定控制器的完整命名空间，因为 Laravel 的  RouteServiceProvider
+    将会自动设置默认的控制器命名空间：
+
+    return redirect()->action('HomeController@index');
+    当然，如果控制器路由要求参数，你可以将参数作为第二个参数传递给 action 方法：
+
+    return redirect()->action('UserController@profile', [1]);
+
+
+
+//带有session
+ return redirect('dashboard')->with('status', 'Profile updated!');
