@@ -85,3 +85,95 @@ public function user(){
     return $this->belongsTo('App\User', 'foreign_key', 'other_key');
 }
 
+
+
+
+
+
+
+
+
+
+//一对多的关系
+
+“一对多”是用于定义单个模型拥有多个其它模型的关联关系。例如，一篇博客文章拥有无数评论，和其他关联关系一样，一对多关联通过在 Eloquent 模型中定义方法来定义：
+
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model{
+    /**
+     * 获取博客文章的评论
+     */
+    public function comments()
+    {
+        return $this->hasMany('App\Comment');
+    }
+}
+记住，Eloquent 会自动判断Comment模型的外键，为方便起见，Eloquent 将拥有者模型名称加上id后缀作为外键。因此，在本例中，Eloquent 假设Comment模型上的外键是post_id。
+
+关联关系被定义后，我们就可以通过访问comments属性来访问评论集合。记住，由于 Eloquent 提供“动态属性”，我们可以像访问模型的属性一样访问关联方法：
+
+$comments = App\Post::find(1)->comments;
+
+foreach ($comments as $comment) {
+    //
+}
+当然，由于所有关联同时也是查询构建器，我们可以添加更多的条件约束到通过调用comments方法获取到的评论上：
+
+$comments = App\Post::find(1)->comments()->where('title', 'foo')->first();
+和hasOne方法一样，你还可以通过传递额外参数到hasMany方法来重新设置外键和本地主键：
+
+return $this->hasMany('App\Comment', 'foreign_key');
+return $this->hasMany('App\Comment', 'foreign_key', 'local_key');
+
+
+
+
+
+
+
+//定义相关的关联
+
+定义相对的关联
+
+现在我们可以访问文章的所有评论了，接下来让我们定义一个关联关系允许通过评论访问所属文章。要定义与hasMany相对的关联关系，需要在子模型中定义一个关联方法去调用belongsTo方法：
+
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Comment extends Model{
+    /**
+     * 获取评论对应的博客文章
+     */
+    public function post()
+    {
+        return $this->belongsTo('App\Post');
+    }
+}
+关联关系定义好之后，我们可以通过访问动态属性post来获取一条Comment对应的Post：
+
+$comment = App\Comment::find(1);
+echo $comment->post->title;
+在上面这个例子中，Eloquent 尝试匹配Comment模型的post_id与Post模型的id，Eloquent 通过关联方法名加上_id后缀生成默认外键，当然，你也可以通过传递自定义外键名作为第二个参数传递到belongsTo方法，如果你的外键不是post_id，或者你想自定义的话：
+
+/**
+ * 获取评论对应的博客文章
+ */
+public function post(){
+    return $this->belongsTo('App\Post', 'foreign_key');
+}
+如果你的父模型不使用id作为主键，或者你希望通过其他列来连接子模型，可以将自定义键名作为第三个参数传递给belongsTo方法：
+
+/**
+ * 获取评论对应的博客文章
+ */
+public function post(){
+    return $this->belongsTo('App\Post', 'foreign_key', 'other_key');
+}
