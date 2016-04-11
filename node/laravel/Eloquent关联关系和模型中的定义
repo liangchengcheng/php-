@@ -12,3 +12,76 @@
 http://laravelacademy.org/post/1095.html
 
 http://laravelacademy.org/post/1174.html
+
+一对一关联是一个非常简单的关联关系，例如，一个User模型有一个与之对应的Phone模型。要定义这种模型，我们需要将phone方法置于User模型中，phone方法应该返回 Eloquent 模型基类上hasOne方法的结果：
+
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class User extends Model{
+    /**
+     * 获取关联到用户的手机
+     */
+    public function phone()
+    {
+        return $this->hasOne('App\Phone');
+    }
+}
+传递给hasOne方法的第一个参数是关联模型的名称，关联关系被定义后，我们可以使用 Eloquent 的动态属性获取关联记录。动态属性允许我们访问关联函数就像它们是定义在模型上的属性一样：
+
+$phone = User::find(1)->phone;
+
+
+
+
+//传递关联键之间的主键信息
+
+Eloquent 默认关联关系的外键基于模型名称，在本例中，Phone模型默认有一个user_id外键，如果你希望重写这种约定，可以传递第二个参数到hasOne方法：
+
+return $this->hasOne('App\Phone', 'foreign_key');
+此外，Eloquent 假设外键应该在父级上有一个与之匹配的id，换句话说，Eloquent 将会通过user表的id值去phone表中查询user_id与之匹配的Phone记录。如果你想要关联关系使用其他值而不是id，可以传递第三个参数到hasOne来指定自定义的主键：
+
+return $this->hasOne('App\Phone', 'foreign_key', 'local_key');
+
+
+
+
+
+
+//定义相对的关联
+定义相对的关联
+
+我们可以从User中访问Phone模型，相应的，我们也可以在Phone模型中定义关联关系从而让我们可以拥有该phone的User。我们可以使用belongsTo方法定义与hasOne关联关系相对的关联：
+
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Phone extends Model{
+    /**
+     * 获取手机对应的用户
+     */
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
+}
+
+//最好是自己自定义主键
+public function user(){
+    return $this->belongsTo('App\User', 'foreign_key');
+}
+如果父模型不使用id作为主键，或者你希望使用别的列来连接子模型，可以将父表自定义键作为第三个参数传递给belongsTo方法：
+
+/**
+ * 获取手机对应的用户
+ */
+public function user(){
+    return $this->belongsTo('App\User', 'foreign_key', 'other_key');
+}
+
