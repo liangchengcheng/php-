@@ -1,0 +1,122 @@
+//对于大型的程序推荐使用Memcached 或者 APC
+
+
+缓存的预备的知识
+使用database  缓存驱动的时候你需要设置一个表包含缓存的缓存项
+Schema::create('cache', function($table) {
+    $table->string('key')->unique();
+    $table->text('value');
+    $table->integer('expiration');
+});
+
+
+
+
+
+
+Memcached
+Memcached
+
+使用 Memcached 缓存要求安装了Memcached PECL 包，即 PHP Memcached 扩展。
+
+Memcached::addServer默认配置使用 TCP/IP 协议：
+
+'memcached' => [
+    [
+        'host' => '127.0.0.1',
+        'port' => 11211,
+        'weight' => 100
+    ],
+],
+你还可以设置 host 选项为 UNIX socket 路径，如果你这样做，port 选项应该置为 0：
+
+'memcached' => [
+    [
+        'host' => '/var/run/memcached/memcached.sock',
+        'port' => 0,
+        'weight' => 100
+    ],
+],
+
+
+
+
+获取缓存
+<?php
+
+namespace App\Http\Controllers;
+
+use Cache;
+use Illuminate\Routing\Controller;
+
+class UserController extends Controller{
+    /**
+     * 显示应用所有用户列表
+     *
+     * @return Response
+     */
+    public function index()
+    {
+        $value = Cache::get('key');
+
+        //
+    }
+}
+
+
+
+//可以使用store房屋不的缓存存储器
+访问多个缓存存储
+
+使用 Cache 门面，你可以使用 store 方法访问不同的缓存存储器，传入 store 方法的键就是 cache 配置文件中 stores 配置数组里列出的相应的存储器：
+
+$value = Cache::store('file')->get('foo');
+Cache::store('redis')->put('bar', 'baz', 10);
+2.2 从缓存中获取数据
+
+Cache 门面的 get 方法用于从缓存中获取缓存项，如果缓存项不存在，返回 null。如果需要的话你可以传递第二个参数到 get 方法指定缓存项不存在时返回的自定义默认值：
+
+$value = Cache::get('key');
+$value = Cache::get('key', 'default');
+你甚至可以传递一个闭包作为默认值，如果缓存项不存在的话闭包的结果将会被返回。传递闭包允许你可以从数据库或其它外部服务获取默认值：
+
+$value = Cache::get('key', function() {
+    return DB::table(...)->get();
+});
+检查缓存项是否存在
+
+has 方法用于判断缓存项是否存在：
+
+if (Cache::has('key')) {
+    //
+}
+
+
+
+//更新或者是获取从数据库获取
+获取或更新
+
+有时候你可能想要获取缓存项，但如果请求的缓存项不存在时给它存储一个默认值。例如，你可能想要从缓存中获取所有用户，或者如果它们不存在的话，从数据库获取它们并将其添加到缓存中，你可以通过使用 Cache::remember 方法实现：
+
+$value = Cache::remember('users', $minutes, function() {
+    return DB::table('users')->get();
+});
+如果缓存项不存在，传递给 remember 方法的闭包被执行并且将结果存放到缓存中。
+
+你还可以联合 remember 和 forever 方法：
+
+$value = Cache::rememberForever('users', function() {
+    return DB::table('users')->get();
+});
+
+
+
+
+
+
+add 方法只会在缓存项不存在的情况下添加缓存项到缓存，如果缓存项被添加到缓存返回 true，否则，返回 false：
+
+Cache::add('key', 'value', $minutes);
+forever 方法用于持久化存储缓存项到缓存，这些值必须通过 forget 方法手动从缓存中移除：
+
+Cache::forever('key', 'value');
