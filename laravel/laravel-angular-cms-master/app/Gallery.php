@@ -15,13 +15,14 @@ class Gallery extends Model
 
     /**
      * The attributes that are mass assignable.
-     *
+     * 这是不可忽视的属性
      * @var array
      */
     protected $fillable = ['title', 'image', 'date', 'visible'];
 
     /**
      * One to many relation
+     * 一对多的关系
      */
     public function galleryImages()
     {

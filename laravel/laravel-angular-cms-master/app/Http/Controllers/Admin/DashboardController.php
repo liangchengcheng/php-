@@ -18,6 +18,7 @@ class DashboardController extends Controller
      */
     public function index()
     {
+        //获取 user post gallery的数量
         $users_count        = User::count();
         $posts_count        = Post::count();
         $galleries_count    = Gallery::count();

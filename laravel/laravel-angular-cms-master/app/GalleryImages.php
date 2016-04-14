@@ -22,6 +22,7 @@ class GalleryImages extends Model
 
     /**
      * One to many relation
+     * 属于 外键 主键
      */
     public function gallery()
     {

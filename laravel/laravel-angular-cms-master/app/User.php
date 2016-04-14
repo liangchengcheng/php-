@@ -28,7 +28,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
     /**
      * The attributes excluded from the model's JSON form.
-     *
+     * 在形成json的时候不要包含
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
