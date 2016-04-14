@@ -1,4 +1,9 @@
 <?php
+
+
+http://laravelacademy.org/post/762.html
+
+
 /**
  * Created by PhpStorm.
  * User: lcc
