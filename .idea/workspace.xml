@@ -2,9 +2,527 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/laravel&amp;time/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/gallery/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/gallery/20151030112531.563353ab58b5e.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/admin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/github.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/upme-white-shaddow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/upme-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/upme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/posts/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/users/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/users/minion3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/users/minion4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/users/minion5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/.env.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Console/Commands/Inspire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Events/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/GalleryImages.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Helpers/ImageHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/DashboardController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/GalleryController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/PostController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Auth/PasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/Authenticate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/RoleMiddleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Requests/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes/client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Jobs/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/PostImages.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Providers/AppServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/UserRoles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/artisan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/bootstrap/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/bootstrap/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/bootstrap/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/broadcasting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/compile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/filesystems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/services.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/factories/ModelFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_08_22_122923_create_user_roles_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_10_05_133903_create_posts_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_10_05_134145_create_posts_images_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_10_28_203822_create_gallery_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_10_28_203846_create_gallery_images_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/seeds/UserTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/phpspec.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/dep.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/dep.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/images/main/upme.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/annotated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/app.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/app.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/app.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/dep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/js/dep.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/angular-resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/angular-resource.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/angular-resource.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-resource/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/animate-css/animate-css.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap-paper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/configBridge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/css/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-classapplier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-classapplier.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-highlighter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-selectionsaverestore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-selectionsaverestore.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-serializer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-serializer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-textrange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/rangy/rangy-textrange.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngular-rangy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/dist/textAngularSetup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/karma-jqlite.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/karma-jquery.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/DOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/factories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/globals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/taBind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/textAngular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/textAngular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/textAngularSetup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/dep/textAngular/src/validators.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/app.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/components/components.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/components/delete_modal.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/components/file.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/components/file_multiple.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/components/flash_messages.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/components/page_loading.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/core/core.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/core/core.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/dashboard/dashboard.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/dashboard/dashboard.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/dashboard/dashboard.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/filters/filters.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/filters/user_roles.filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/gallery/gallery.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/gallery/gallery.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/gallery/gallery.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/posts/posts.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/posts/posts.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/posts/posts.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/profile/profile.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/profile/profile.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/profile/profile.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/router/router-helper.provider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/router/router.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/services/authuser.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/services/gallery.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/services/posts.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/services/services.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/services/users.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/users/users.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/users/users.modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/users/users.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_content.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_dashboard.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_table.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/bundle.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/angular_components/flash_messages.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/angular_components/modal.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/dashboard/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/error/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/gallery/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/gallery/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/gallery/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/layouts/footer.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/layouts/header.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/layouts/master.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/login/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/posts/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/posts/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/posts/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/profile/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/users/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/users/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/users/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/errors/503.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/welcome.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/storage/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/storage/framework/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/storage/framework/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/storage/framework/sessions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/storage/framework/views/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/storage/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/tests/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/tests/TestCase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/laravel&amp;angular/route.php" afterPath="$PROJECT_DIR$/node/laravel&amp;angular/route.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +547,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/laravel&amp;angular/route.php">
+      <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node/laravel&amp;time/index.php">
+      <file leaf-file-name="ExampleTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/tests/ExampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6132879">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <element signature="e#6#83#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.modules.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.modules.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,8 +666,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="616" />
-    <option name="y" value="102" />
+    <option name="x" value="3" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
   </component>
@@ -142,7 +678,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -212,6 +748,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-angular-cms-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-angular-cms-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -224,19 +814,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node/laravel" />
-      <recent name="$PROJECT_DIR$/yii/basic/controllers" />
-      <recent name="$PROJECT_DIR$/yii" />
-      <recent name="$PROJECT_DIR$/yii/basic/models" />
-      <recent name="$PROJECT_DIR$/laravel/zsb_laravele/app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/laravel/shop/resources/views" />
       <recent name="$PROJECT_DIR$/laravel/shop/app/Entity" />
       <recent name="$PROJECT_DIR$/laravel/my_laravele/resources/views" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View" />
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel" />
+      <recent name="$PROJECT_DIR$/node/laravel" />
+      <recent name="$PROJECT_DIR$/yii/basic/controllers" />
+      <recent name="$PROJECT_DIR$/yii" />
+      <recent name="$PROJECT_DIR$/yii/basic/models" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.Tool">
@@ -305,10 +895,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="616" y="102" width="1280" height="731" extended-state="0" />
+    <frame x="3" y="23" width="1280" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2625202" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29886913" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -379,237 +969,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/basic/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="33.958332">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/models/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="42.708332">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.25">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/models/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/views/country/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/controllers/Hello1Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/controllers/Hello2Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/controllers/CountryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/路由">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8214286">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/basic/models/Country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0283688">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/路由参数">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/路由的命名">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="40.25">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/csrf和app接口">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Http/Middleware/CheckLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/中间件1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/restful增删改查">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/请求">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/cookie">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/文件下载">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/重定向实例">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/视图共享数据和视图">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/ioc简单使用">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Contracts/TestContract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/my_laravele/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/服务提供者">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/db和sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel/构建器和sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/laravel/sql复杂查询">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -732,11 +1091,278 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node/laravel&amp;time/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6132879">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/lang/en/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.041667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5416667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="77.416664">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.166666">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/broadcasting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.916667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.666666">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/compile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1666666">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="31.25">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3253833">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="56.791668">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.75">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.0416667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="63.666668">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_08_22_122923_create_user_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/database/migrations/2015_10_05_133903_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="276.16666">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="46.6125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/app.min.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/dep.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/public/admin/css/dep.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/sass/admin/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7632027">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/tests/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
