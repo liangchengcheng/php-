@@ -1,0 +1,22 @@
+使用VNC server 很简单，先安装vnc server "yum 就可以了“
+1. 编辑一个档案 vi ~/.vnc/xstartup
+#!/bin/sh
+
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+xterm -geometry 80x18+10+10 -ls -title "$VNCDESKTOP Desktop" &
+gnome-session &
+
+2.启动vnc server 第一次会要求输入密码。
+vncserver -geometry 1300x820 -depth 24 -cc 3
+
+3.到MAC 启动 Safari ，在地址栏输入 vnc://ip:5901 就可以了~
+
+我都是这么用的很方便~
+
+
+
+https://cyberduck.io/
+
+https://www.aliyun.com/easybuy/advance01?spm=5176.2095707.1.2.h56MYI#/easyEcs
