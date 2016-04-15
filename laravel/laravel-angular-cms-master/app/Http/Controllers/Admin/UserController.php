@@ -18,7 +18,7 @@ class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
+     * 显示
      * @return Response
      */
     public function index()

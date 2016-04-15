@@ -2,903 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07264567-fdc9-4e8a-a87f-43ba20b730b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Listeners/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Policies/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/avatar/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/avatar/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/logo/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/logo/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/logo/inverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/logo/sm-default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/logo/sm-inverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/noimage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/img/ui-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/Sorting icons.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/data-tables/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/flat@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/futurico/futurico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/futurico/futurico@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/line@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/minimal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/minimal@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/polaris/polaris.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/polaris/polaris@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/square@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/ionicons/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/ionicons/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/ionicons/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/img/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/img/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/tile-wide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/database.sqlite" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Listeners/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Policies/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/migrations/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/font-awesome/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/font-awesome/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/font-awesome/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/font-awesome/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/font-awesome/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default-dark/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default-dark/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default-dark/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/tile-wide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/.env.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Console/Commands/Inspire.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Console/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Events/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Exceptions/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/AdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/Auth/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/Auth/PasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/PublicController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/WebCurdController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Middleware/Authenticate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Middleware/EncryptCookies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Middleware/RoleAuthenticate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Requests/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/Requests/StoreBlogPostRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Http/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Jobs/Job.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Policies/PostPolicy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Providers/AppServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Providers/AuthServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Providers/EventServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/Providers/RouteServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/app/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/artisan" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/bootstrap/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/bootstrap/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/broadcasting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/compile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/files.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/filesystems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/former.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/hashids.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/imagecache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/package/calendar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/package/message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/package/package.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/package/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/package/settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/package/task.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/recaptcha.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/theme.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/trans.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/config/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_01_05_100001_create_users_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_01_05_100010_create_password_resets_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_02_23_161101_create_roles_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_02_23_161102_create_permissions_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_02_23_161103_create_role_user_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_07_01_100000_create_calendars_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_07_01_100000_create_messages_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_07_01_100000_create_settings_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_07_01_100000_create_tasks_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_08_05_100011_create_pages_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2015_08_05_100012_create_menus_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/migrations/2016_01_01_000017_create_revisions_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/CalendarTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/DatabaseSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/MenuTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/MessageTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/PageTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/PermissionTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/RoleTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/SettingTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/TaskTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/database/seeds/UserTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/packages/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/php.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/phpspec.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/css/vendor_admin-8894097fb8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/css/vendor_admin.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/css/vendor_public-e534ec8157.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/css/vendor_public.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/js/vendor_admin-fe32275821.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/js/vendor_admin.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/js/vendor_public-e6ff332031.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/js/vendor_public.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/build/rev-manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/css/vendor_admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/css/vendor_admin.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/css/vendor_public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/css/vendor_public.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/js/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/js/public.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/js/vendor_admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/js/vendor_admin.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/js/vendor_public.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/js/vendor_public.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/fullcalendar/fullcalendar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/flat/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/futurico/futurico.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/line.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/line/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/minimal/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/polaris/polaris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/square.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/icheck/css/icheck/square/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/ionicons/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/ionicons/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/jquery/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/jquery/js/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/nestable/jquery.nestable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/packages/nestable/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/_all-skins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/_all-skins.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-black-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-black-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-black.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-blue-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-blue-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-blue.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-green-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-green-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-green.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-purple-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-purple-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-purple.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-red-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-red-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-red.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-yellow-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-yellow-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/skins/skin-yellow.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/css/theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/js/lavalite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/assets/js/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/layouts/blank.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/layouts/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/partials/aside.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/partials/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/partials/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/partials/right.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/curd/entry.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/curd/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/general/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/general/masters.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/general/reports.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/notifications.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/user/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/user/lock.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/user/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/user/password.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/admin/views/user/profile.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/assets/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/assets/js/theme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/layouts/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/layouts/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/layouts/user.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/partials/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/partials/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/partials/user.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/notifications.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/changepassword.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/dashboard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/lock.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/password.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/register.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/reset.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/social.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/user/updateprofile.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/public/themes/public/views/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/assets/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/cms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/en/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/lang/vendor/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/auth/emails/password.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/errors/503.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/filer/editor.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/filer/show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/filer/upload.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/menu/admin.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/menu/bootstrap.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/menu/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/admin.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/bootstrap.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/resources/views/vendor/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/framework/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/framework/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/framework/sessions/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/framework/views/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/storage/logs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/tests/ExampleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/cms-master/tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/.env.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Console/Commands/Inspire.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Console/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Events/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Events/Frontend/Auth/UserLoggedIn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Events/Frontend/Auth/UserLoggedOut.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Events/Frontend/Auth/UserRegistered.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Exceptions/Backend/Access/User/UserNeedsRolesException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Exceptions/GeneralException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Exceptions/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/Access/Permission.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/Access/PermissionGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/Access/Role.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/Access/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/Backend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Breadcrumbs/Backend/LogViewer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/Access/Permission/PermissionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/Access/Permission/PermissionGroupController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/Access/Role/RoleController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/Access/User/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/DashboardController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Frontend/Auth/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Frontend/Auth/PasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Frontend/FrontendController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Frontend/User/DashboardController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Frontend/User/ProfileController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Language/LanguageController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/Authenticate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/EncryptCookies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/LocaleMiddleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/RouteNeedsPermission.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/RouteNeedsRole.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/CreatePermissionRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/DeletePermissionRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/EditPermissionRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/Group/CreatePermissionGroupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/Group/DeletePermissionGroupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/Group/EditPermissionGroupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/Group/SortPermissionGroupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/Group/StorePermissionGroupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/Group/UpdatePermissionGroupRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/StorePermissionRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Permission/UpdatePermissionRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Role/CreateRoleRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Role/DeleteRoleRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Role/EditRoleRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Role/StoreRoleRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/Role/UpdateRoleRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/ChangeUserPasswordRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/CreateUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/DeleteUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/EditUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/MarkUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/PermanentlyDeleteUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/ResendConfirmationEmailRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/RestoreUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/StoreUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/UpdateUserPasswordRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Backend/Access/User/UpdateUserRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Frontend/Auth/LoginRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Frontend/Auth/RegisterRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Frontend/Auth/ResetPasswordRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Frontend/Auth/SendResetLinkEmailRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Frontend/User/ChangePasswordRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Frontend/User/UpdateProfileRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Requests/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Backend/Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Backend/Dashboard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Backend/LogViewer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Frontend/Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Frontend/Frontend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Language/Language.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/breadcrumbs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Jobs/Job.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Listeners/Frontend/Auth/UserLoggedInListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Listeners/Frontend/Auth/UserLoggedOutListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Listeners/Frontend/Auth/UserRegisteredListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/Permission.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/PermissionDependency.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/PermissionGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/Traits/Attribute/PermissionAttribute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/Traits/Attribute/PermissionGroupAttribute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/Traits/Relationship/PermissionDependencyRelationship.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/Traits/Relationship/PermissionGroupRelationship.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Permission/Traits/Relationship/PermissionRelationship.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Role.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Traits/Attribute/RoleAttribute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Traits/Relationship/RoleRelationship.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Traits/RoleAccess.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/SocialLogin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/Traits/Attribute/UserAttribute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/Traits/Relationship/UserRelationship.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/Traits/UserAccess.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Providers/AccessServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Providers/AppServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Providers/AuthServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Providers/EventServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Providers/MacroServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Providers/RouteServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Permission/Dependency/EloquentPermissionDependencyRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Permission/Dependency/PermissionDependencyRepositoryContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Permission/EloquentPermissionRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Permission/Group/EloquentPermissionGroupRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Permission/Group/PermissionGroupRepositoryContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Permission/PermissionRepositoryContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Role/EloquentRoleRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/Role/RoleRepositoryContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/User/EloquentUserRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Backend/Access/User/UserRepositoryContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Frontend/Access/User/EloquentUserRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Repositories/Frontend/Access/User/UserRepositoryContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Facades/Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/AuthenticatesAndRegistersUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/AuthenticatesUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/ChangePasswords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/ConfirmUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/RedirectsUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/RegistersUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/ResetsPasswords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Access/Traits/UseSocialite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Macros/Dropdowns.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Services/Macros/Macros.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/helpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/artisan" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/bootstrap/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/bootstrap/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/analytics.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/backend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/breadcrumbs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/broadcasting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/compile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/debugbar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/filesystems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/gravatar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/javascript.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/laravel-backup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/locale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/log-viewer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/config/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/migrations/2015_12_28_171741_create_social_logins_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/migrations/2015_12_29_015055_setup_access_tables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/Access/PermissionDependencyTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/Access/PermissionGroupTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/Access/PermissionTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/Access/RoleTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/Access/UserRoleSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/Access/UserTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/AccessTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/database/seeds/DatabaseSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/elixir-extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/css/backend-9cfa37282b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/css/backend.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/css/frontend-4b221713a2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/css/frontend.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/fonts/font-awesome/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/js/backend-2e5830f126.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/js/backend.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/js/frontend-a3e1d47905.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/js/frontend.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/build/rev-manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default-dark/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default-dark/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/jstree/themes/default/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/css/backend/plugin/nestable/jquery.nestable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/humans.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/backend/access/permissions/dependencies/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/backend/access/permissions/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/backend/access/roles/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/backend/access/users/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/backend/plugin/jstree/jstree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/backend/plugin/nestable/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/vendor/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/js/vendor/jquery/jquery-2.1.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/public/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/css/backend/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/css/backend/app.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/css/frontend/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/css/frontend/app.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/js/backend/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/js/backend/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/js/backend/plugin/toastr/toastr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/js/frontend/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/js/plugin/sweetalert/sweetalert.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/js/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_404_500_errors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_boxes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_callout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_control-sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_custom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_direct-chat.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_fullcalendar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_info-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_invoice.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_lockscreen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_login_and_register.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_mailbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_miscellaneous.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_navs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_products.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_sidebar-mini.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_small-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_table.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_timeline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_users-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/plugin/toastr/toastr.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_all-skins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-black-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-black.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-blue-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-blue.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-green-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-green.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-purple-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-purple.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-red-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-red.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-yellow-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/skins/_skin-yellow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/backend/variable-overrides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/frontend/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/frontend/variable-overrides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/assets/sass/plugin/sweetalert/sweetalert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/da/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/de/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/en/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/es/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/fr/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/it/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/pt-BR/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/alerts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/labels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/navs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/sv/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/ar/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/ar/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/de/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/de/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/en/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/en/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/es/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/es/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/fr/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/fr/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/hy/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/hy/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/it/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/it/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/nl/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/nl/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/pl/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/pl/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/pt-BR/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/pt-BR/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/ro/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/ro/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/ru/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/ru/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/sv/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/sv/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/tr/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/tr/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/zh/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/lang/vendor/log-viewer/zh/levels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/change-password.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/deactivated.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/deleted.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/includes/partials/header-buttons.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/permissions/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/permissions/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/permissions/groups/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/permissions/groups/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/access/roles/permissions/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/dashboard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/includes/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/includes/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/includes/partials/breadcrumbs.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/includes/sidebar.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/de/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/de/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/de/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/en/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/en/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/en/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/es/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/es/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/es/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/fr/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/fr/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/fr/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/it/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/it/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/it/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/pt-BR/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/pt-BR/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/pt-BR/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/sv/access/roles/associated-permissions-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/sv/access/roles/permissions/dependencies-explanation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/lang/sv/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/backend/layouts/master.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/errors/404.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/errors/503.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/emails/confirm.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/emails/password.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/passwords/change.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/passwords/email.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/passwords/reset.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/auth/register.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/includes/nav.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/layouts/master.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/macros.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/user/dashboard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/frontend/user/profile/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/includes/partials/ga.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/includes/partials/lang.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/includes/partials/messages.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/_partials/menu.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/_template/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/_template/master.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/_template/navigation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/_template/style.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/dashboard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/logs.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/resources/views/vendor/log-viewer/show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/app/public/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/debugbar/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/framework/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/framework/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/framework/sessions/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/framework/views/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/storage/logs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/laravel打包" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/laravel/mail" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/laravel/session" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Gallery.php" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/GalleryImages.php" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/GalleryImages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/DashboardController.php" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/DashboardController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/User.php" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/UserController.php" afterPath="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/UserController.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -923,71 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RoleAccess.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Traits/RoleAccess.php">
+      <file leaf-file-name="session" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/laravel/session">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleAttribute.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Traits/Attribute/RoleAttribute.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gallery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Gallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="laravel打包" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node/laravel打包">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.024549918">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -1008,9 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yii/basic/models/Test.php" />
-        <option value="$PROJECT_DIR$/yii/basic/models/Custorm.php" />
-        <option value="$PROJECT_DIR$/yii/basic/models/Order.php" />
         <option value="$PROJECT_DIR$/yii/yii-master/frontend/controllers/CommentController.php" />
         <option value="$PROJECT_DIR$/yii/yii-master/frontend/controllers/MyController.php" />
         <option value="$PROJECT_DIR$/yii/yii-master/frontend/controllers/QrcodeController.php" />
@@ -1059,6 +103,9 @@
         <option value="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/GalleryImages.php" />
         <option value="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/User.php" />
         <option value="$PROJECT_DIR$/node/laravel打包" />
+        <option value="$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/node/laravel/mail" />
+        <option value="$PROJECT_DIR$/node/laravel/session" />
       </list>
     </option>
   </component>
@@ -1072,8 +119,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
+    <option name="x" value="161" />
+    <option name="y" value="54" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
   </component>
@@ -1150,25 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="laravel&amp;time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel&amp;angular" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1206,11 +235,11 @@
       <recent name="$PROJECT_DIR$/thinkphp/Application/Home/View/View/index" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/laravel-angular-cms-master" />
       <recent name="$PROJECT_DIR$/laravel" />
       <recent name="$PROJECT_DIR$/node/laravel" />
       <recent name="$PROJECT_DIR$/yii/basic/controllers" />
       <recent name="$PROJECT_DIR$/yii" />
-      <recent name="$PROJECT_DIR$/yii/basic/models" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.Tool">
@@ -1279,13 +308,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1280" height="731" extended-state="6" />
-    <editor active="false" />
+    <frame x="161" y="54" width="1280" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29886913" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29886913" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.496875" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1298,7 +328,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.496875" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1353,198 +382,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/UserRoles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Helpers/ImageHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.208333">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Jobs/Job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.1666665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/RoleMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5416665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/EncryptCookies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.041667">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.125">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/shop/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2044293">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.166666">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/bootstrap.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/auth/emails/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/errors/503.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.666667">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/filer/editor.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.625">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/filer/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1665,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Traits/RoleAccess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1689,7 +518,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/User.php">
+    <entry file="file://$PROJECT_DIR$/node/laravel打包">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.041667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/app/Events/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/menu/bootstrap.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/resources/views/menu/sub/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1699,8 +592,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
+        <state vertical-scroll-proportion="4.375">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/cms-master/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/shop/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0562181">
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/Role/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Models/Access/User/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.9166665">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/assets/js/admin/app/login/login.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/login/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/resources/views/admin/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1713,10 +702,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/laravel打包">
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Helpers/ImageHelper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446220946000" expanded="true" signature="238:274" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.166666">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/laravel/mail">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/Controllers/Admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1591512">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-angular-cms-master/app/Http/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4166667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Routes/Backend/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/Access/Permission/PermissionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="50.541668">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/laravel-5-boilerplate-master/app/Http/Controllers/Backend/Access/Permission/PermissionGroupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3764906">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/laravel/session">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024549918">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
           <folding />
         </state>
       </provider>
