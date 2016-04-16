@@ -1,1 +1,13 @@
 http://www.maiziedu.com/course/php/649-10485/
+
+项目打包
+：npm init（创建packet.json）
+：使用npm install gulp
+: gulp -version(查看版本)
+：安装gulp的重命名插件 npm install gulp-rename
+: 安装gulp的对应的合并文件插件 npm install gulp-concat
+：安装gulp对应的压缩css插件  npm install gulp-minify-css
+: 安装gulp对应的压缩js的插件 npm install gulp-uglify
+: 安装gulp的压缩图片 npm install gulp-imagemin
+
+然后
