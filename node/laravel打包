@@ -9,5 +9,105 @@ http://www.maiziedu.com/course/php/649-10485/
 ：安装gulp对应的压缩css插件  npm install gulp-minify-css
 : 安装gulp对应的压缩js的插件 npm install gulp-uglify
 : 安装gulp的压缩图片 npm install gulp-imagemin
+万网的和larval
 
-然后
+部署
+http://www.zhihu.com/question/35537084?sort=created
+http://ews.console.aliyun.com/#/ewsDetail/186302
+https://ecs.console.aliyun.com/#/server/region/cn-qingdao
+lcc
+
+❤️登录
+
+ssh 用户名@ip
+注：上边代码为固定格式，其中
+        user 为 linux 服务器的管理员名称
+        hostname 为 linux 服务器的IP
+
+如： ssh haibor@1.2.3.4
+
+安装阿帕奇服务器
+❤️安装 Apache
+sudo apt-get install apache2
+
+❤️安装 PHP5
+在终端输入以下命令:
+sudo apt-get install php5 libapache2-mod-php5
+
+sudo apt-get install php5.5.9 libapache2-mod-php5.5.9
+
+sudo apt-get install php6 libapache2-mod-php6
+
+❤️重启Apache：
+
+sudo /etc/init.d/apache2 restart
+
+安装 MySQL
+下面我们来安装 MySQL （这是最后一步，也是麻烦比较多的一步，安装的时候注意。）
+再一次打开终端，运行以下命令：
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client
+
+sudo vi /var/www/html/testphp.php
+
+sudo vi /var/www/html/lcc.php
+
+安装phpMyAdmin
+下面我们安装phpMyAdmin。在终端输入以下命令:
+sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
+sudo apt-get install phpmyadmin
+
+❤️sudo ln -s /usr/share/phpmyadmin/ /var/www/html
+ip/phpmyadmin
+
+
+❤️安装nginx
+sudo apt-get install nginx
+ 卸载：sudo apt-get --purge remove nginx
+❤️重启sudo service nginx restart
+
+
+❤️初始化项目
+git clone …
+composer create-project laravel/laravel Laravel
+ls -a 查看所有的文件
+(拷贝到上级目录)cp -r * ../
+(回到上级目录）cd ../
+(删除)rm -rf Laravel
+(检测larval是否运行)php artisan serve（。env）
+添加所有的文件）git .add
+提交：git commit -m ”init project”(这个需要自己手动的打)
+推送：git push
+❤️在服务端安装git
+sudo apt-get install git
+❤️开始部署
+sudo mkdir -p /var/www
+
+
+server {
+  listen 80 default_server;
+  listen [::]:80 default_server ipv6only=on;
+  root 根路径;
+  index index.php index.html index.htm;
+  server_name ip;
+  location / {
+    try_files $uri $uri/ /index.php?$query_string;
+  }
+  location ~ \.php$ {
+    try_files $uri /index.php =404;
+    fastcgi_split_path_info ^(.+\.php)(/.+)$;
+    fastcgi_pass unix:/var/run/php5-fpm.sock;
+    fastcgi_index index.php;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    include fastcgi_params;
+  }
+}
+设置权限
+sudo chown -R :www-data /var/www/
+❤️清除缓存
+php artisan cache:clear
+sudo chmod -R 775 /var/www/mstdq/app/storage
+
+❤️var和log里面查看错误日志
+
+
