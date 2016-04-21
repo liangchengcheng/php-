@@ -89,7 +89,7 @@ class CartController extends Controller
         $product_ids_arr = explode(',', $product_ids);
         $member = $request->session()->get('member', '');
         if ($member != '') {
-            //登录了就删除了吧
+            //登录了就删除了
             CartItem::whereIn('product_id', $product_ids_arr)->delete();
             return $m3_result->toJson();
         }
@@ -101,14 +101,19 @@ class CartController extends Controller
             return $m3_result->toJson();
         }
 
-        // 未登录
+        //获取cart里面的内容.
         $bk_cart = $request->cookie('bk_cart');
+        //把每件物品加入到数组.
         $bk_cart_arr = ($bk_cart != null ? explode(',', $bk_cart) : array());
+        //循环遍历数组.
         foreach ($bk_cart_arr as $key => $value) {
+            //获取:所在的位置.
             $index = strpos($value, ':');
+            //截取:前面的id.
             $product_id = substr($value, 0, $index);
-            // 存在, 删除
+            // 判断你上传的id是否在cookie里面.
             if (in_array($product_id, $product_ids_arr)) {
+
                 array_splice($bk_cart_arr, $key, 1);
                 continue;
             }

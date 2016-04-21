@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App
  */
-class Admin extends Model
+class User extends Model
 {
-    protected $table = 'admin';
+    protected $table = 'user';
     protected $primaryKey = 'id';
 }
